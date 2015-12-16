@@ -1,0 +1,3059 @@
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testFourConcatStringsWithConcat
+
+# Run progress: 0,00% complete, ETA 00:42:40
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,181 us/op
+# Warmup Iteration   2: 0,173 us/op
+# Warmup Iteration   3: 0,158 us/op
+# Warmup Iteration   4: 0,156 us/op
+# Warmup Iteration   5: 0,156 us/op
+# Warmup Iteration   6: 0,155 us/op
+# Warmup Iteration   7: 0,165 us/op
+# Warmup Iteration   8: 0,157 us/op
+# Warmup Iteration   9: 0,164 us/op
+# Warmup Iteration  10: 0,156 us/op
+# Warmup Iteration  11: 0,159 us/op
+# Warmup Iteration  12: 0,156 us/op
+# Warmup Iteration  13: 0,159 us/op
+# Warmup Iteration  14: 0,159 us/op
+# Warmup Iteration  15: 0,156 us/op
+# Warmup Iteration  16: 0,166 us/op
+# Warmup Iteration  17: 0,159 us/op
+# Warmup Iteration  18: 0,157 us/op
+# Warmup Iteration  19: 0,154 us/op
+# Warmup Iteration  20: 0,184 us/op
+Iteration   1: 0,268 us/op
+Iteration   2: 0,156 us/op
+Iteration   3: 0,158 us/op
+Iteration   4: 0,157 us/op
+Iteration   5: 0,156 us/op
+Iteration   6: 0,159 us/op
+Iteration   7: 0,161 us/op
+Iteration   8: 0,156 us/op
+Iteration   9: 0,158 us/op
+Iteration  10: 0,160 us/op
+Iteration  11: 0,160 us/op
+Iteration  12: 0,157 us/op
+Iteration  13: 0,168 us/op
+Iteration  14: 0,168 us/op
+Iteration  15: 0,166 us/op
+Iteration  16: 0,160 us/op
+Iteration  17: 0,161 us/op
+Iteration  18: 0,157 us/op
+Iteration  19: 0,156 us/op
+Iteration  20: 0,156 us/op
+
+# Run progress: 1,56% complete, ETA 00:42:37
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,175 us/op
+# Warmup Iteration   2: 0,169 us/op
+# Warmup Iteration   3: 0,157 us/op
+# Warmup Iteration   4: 0,154 us/op
+# Warmup Iteration   5: 0,156 us/op
+# Warmup Iteration   6: 0,168 us/op
+# Warmup Iteration   7: 0,155 us/op
+# Warmup Iteration   8: 0,155 us/op
+# Warmup Iteration   9: 0,157 us/op
+# Warmup Iteration  10: 0,157 us/op
+# Warmup Iteration  11: 0,159 us/op
+# Warmup Iteration  12: 0,162 us/op
+# Warmup Iteration  13: 0,156 us/op
+# Warmup Iteration  14: 0,156 us/op
+# Warmup Iteration  15: 0,165 us/op
+# Warmup Iteration  16: 0,179 us/op
+# Warmup Iteration  17: 0,158 us/op
+# Warmup Iteration  18: 0,156 us/op
+# Warmup Iteration  19: 0,157 us/op
+# Warmup Iteration  20: 0,157 us/op
+Iteration   1: 0,157 us/op
+Iteration   2: 0,156 us/op
+Iteration   3: 0,155 us/op
+Iteration   4: 0,156 us/op
+Iteration   5: 0,156 us/op
+Iteration   6: 0,164 us/op
+Iteration   7: 0,157 us/op
+Iteration   8: 0,156 us/op
+Iteration   9: 0,167 us/op
+Iteration  10: 0,160 us/op
+Iteration  11: 0,158 us/op
+Iteration  12: 0,157 us/op
+Iteration  13: 0,157 us/op
+Iteration  14: 0,155 us/op
+Iteration  15: 0,156 us/op
+Iteration  16: 0,168 us/op
+Iteration  17: 0,156 us/op
+Iteration  18: 0,157 us/op
+Iteration  19: 0,156 us/op
+Iteration  20: 0,253 us/op
+
+# Run progress: 3,13% complete, ETA 00:41:55
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,177 us/op
+# Warmup Iteration   2: 0,176 us/op
+# Warmup Iteration   3: 0,157 us/op
+# Warmup Iteration   4: 0,159 us/op
+# Warmup Iteration   5: 0,159 us/op
+# Warmup Iteration   6: 0,158 us/op
+# Warmup Iteration   7: 0,155 us/op
+# Warmup Iteration   8: 0,154 us/op
+# Warmup Iteration   9: 0,158 us/op
+# Warmup Iteration  10: 0,157 us/op
+# Warmup Iteration  11: 0,155 us/op
+# Warmup Iteration  12: 0,159 us/op
+# Warmup Iteration  13: 0,156 us/op
+# Warmup Iteration  14: 0,156 us/op
+# Warmup Iteration  15: 0,159 us/op
+# Warmup Iteration  16: 0,155 us/op
+# Warmup Iteration  17: 0,157 us/op
+# Warmup Iteration  18: 0,165 us/op
+# Warmup Iteration  19: 0,169 us/op
+# Warmup Iteration  20: 0,166 us/op
+Iteration   1: 0,159 us/op
+Iteration   2: 0,157 us/op
+Iteration   3: 0,155 us/op
+Iteration   4: 0,157 us/op
+Iteration   5: 0,159 us/op
+Iteration   6: 0,157 us/op
+Iteration   7: 0,158 us/op
+Iteration   8: 0,157 us/op
+Iteration   9: 0,156 us/op
+Iteration  10: 0,156 us/op
+Iteration  11: 0,155 us/op
+Iteration  12: 0,157 us/op
+Iteration  13: 0,155 us/op
+Iteration  14: 0,154 us/op
+Iteration  15: 0,156 us/op
+Iteration  16: 0,153 us/op
+Iteration  17: 0,152 us/op
+Iteration  18: 0,153 us/op
+Iteration  19: 0,152 us/op
+Iteration  20: 0,152 us/op
+
+# Run progress: 4,69% complete, ETA 00:41:13
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,170 us/op
+# Warmup Iteration   2: 0,162 us/op
+# Warmup Iteration   3: 0,149 us/op
+# Warmup Iteration   4: 0,150 us/op
+# Warmup Iteration   5: 0,151 us/op
+# Warmup Iteration   6: 0,152 us/op
+# Warmup Iteration   7: 0,151 us/op
+# Warmup Iteration   8: 0,150 us/op
+# Warmup Iteration   9: 0,158 us/op
+# Warmup Iteration  10: 0,151 us/op
+# Warmup Iteration  11: 0,151 us/op
+# Warmup Iteration  12: 0,151 us/op
+# Warmup Iteration  13: 0,151 us/op
+# Warmup Iteration  14: 0,151 us/op
+# Warmup Iteration  15: 0,152 us/op
+# Warmup Iteration  16: 0,151 us/op
+# Warmup Iteration  17: 0,150 us/op
+# Warmup Iteration  18: 0,152 us/op
+# Warmup Iteration  19: 0,151 us/op
+# Warmup Iteration  20: 0,264 us/op
+Iteration   1: 0,152 us/op
+Iteration   2: 0,157 us/op
+Iteration   3: 0,151 us/op
+Iteration   4: 0,149 us/op
+Iteration   5: 0,148 us/op
+Iteration   6: 0,149 us/op
+Iteration   7: 0,148 us/op
+Iteration   8: 0,149 us/op
+Iteration   9: 0,148 us/op
+Iteration  10: 0,152 us/op
+Iteration  11: 0,151 us/op
+Iteration  12: 0,148 us/op
+Iteration  13: 0,158 us/op
+Iteration  14: 0,157 us/op
+Iteration  15: 0,158 us/op
+Iteration  16: 0,158 us/op
+Iteration  17: 0,158 us/op
+Iteration  18: 0,158 us/op
+Iteration  19: 0,158 us/op
+Iteration  20: 0,158 us/op
+
+
+Result "testFourConcatStringsWithConcat":
+  0,159 ±(99.9%) 0,006 us/op [Average]
+  (min, avg, max) = (0,148, 0,159, 0,268), stdev = 0,017
+  CI (99.9%): [0,153, 0,166] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testFourConcatStringsWithPlus
+
+# Run progress: 6,25% complete, ETA 00:40:32
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,074 us/op
+# Warmup Iteration   2: 0,059 us/op
+# Warmup Iteration   3: 0,062 us/op
+# Warmup Iteration   4: 0,060 us/op
+# Warmup Iteration   5: 0,061 us/op
+# Warmup Iteration   6: 0,061 us/op
+# Warmup Iteration   7: 0,067 us/op
+# Warmup Iteration   8: 0,061 us/op
+# Warmup Iteration   9: 0,061 us/op
+# Warmup Iteration  10: 0,061 us/op
+# Warmup Iteration  11: 0,062 us/op
+# Warmup Iteration  12: 0,060 us/op
+# Warmup Iteration  13: 0,060 us/op
+# Warmup Iteration  14: 0,060 us/op
+# Warmup Iteration  15: 0,060 us/op
+# Warmup Iteration  16: 0,060 us/op
+# Warmup Iteration  17: 0,062 us/op
+# Warmup Iteration  18: 0,061 us/op
+# Warmup Iteration  19: 0,060 us/op
+# Warmup Iteration  20: 0,060 us/op
+Iteration   1: 0,059 us/op
+Iteration   2: 0,060 us/op
+Iteration   3: 0,060 us/op
+Iteration   4: 0,060 us/op
+Iteration   5: 0,060 us/op
+Iteration   6: 0,060 us/op
+Iteration   7: 0,061 us/op
+Iteration   8: 0,061 us/op
+Iteration   9: 0,062 us/op
+Iteration  10: 0,061 us/op
+Iteration  11: 0,061 us/op
+Iteration  12: 0,060 us/op
+Iteration  13: 0,061 us/op
+Iteration  14: 0,061 us/op
+Iteration  15: 0,060 us/op
+Iteration  16: 0,060 us/op
+Iteration  17: 0,060 us/op
+Iteration  18: 0,061 us/op
+Iteration  19: 0,085 us/op
+Iteration  20: 0,075 us/op
+
+# Run progress: 7,81% complete, ETA 00:39:52
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,075 us/op
+# Warmup Iteration   2: 0,059 us/op
+# Warmup Iteration   3: 0,058 us/op
+# Warmup Iteration   4: 0,058 us/op
+# Warmup Iteration   5: 0,058 us/op
+# Warmup Iteration   6: 0,059 us/op
+# Warmup Iteration   7: 0,058 us/op
+# Warmup Iteration   8: 0,060 us/op
+# Warmup Iteration   9: 0,065 us/op
+# Warmup Iteration  10: 0,062 us/op
+# Warmup Iteration  11: 0,059 us/op
+# Warmup Iteration  12: 0,058 us/op
+# Warmup Iteration  13: 0,059 us/op
+# Warmup Iteration  14: 0,059 us/op
+# Warmup Iteration  15: 0,058 us/op
+# Warmup Iteration  16: 0,059 us/op
+# Warmup Iteration  17: 0,059 us/op
+# Warmup Iteration  18: 0,060 us/op
+# Warmup Iteration  19: 0,058 us/op
+# Warmup Iteration  20: 0,059 us/op
+Iteration   1: 0,059 us/op
+Iteration   2: 0,059 us/op
+Iteration   3: 0,059 us/op
+Iteration   4: 0,059 us/op
+Iteration   5: 0,059 us/op
+Iteration   6: 0,059 us/op
+Iteration   7: 0,059 us/op
+Iteration   8: 0,059 us/op
+Iteration   9: 0,059 us/op
+Iteration  10: 0,059 us/op
+Iteration  11: 0,059 us/op
+Iteration  12: 0,058 us/op
+Iteration  13: 0,058 us/op
+Iteration  14: 0,060 us/op
+Iteration  15: 0,058 us/op
+Iteration  16: 0,058 us/op
+Iteration  17: 0,058 us/op
+Iteration  18: 0,059 us/op
+Iteration  19: 0,059 us/op
+Iteration  20: 0,058 us/op
+
+# Run progress: 9,38% complete, ETA 00:39:11
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,077 us/op
+# Warmup Iteration   2: 0,066 us/op
+# Warmup Iteration   3: 0,063 us/op
+# Warmup Iteration   4: 0,063 us/op
+# Warmup Iteration   5: 0,063 us/op
+# Warmup Iteration   6: 0,064 us/op
+# Warmup Iteration   7: 0,064 us/op
+# Warmup Iteration   8: 0,063 us/op
+# Warmup Iteration   9: 0,064 us/op
+# Warmup Iteration  10: 0,059 us/op
+# Warmup Iteration  11: 0,059 us/op
+# Warmup Iteration  12: 0,059 us/op
+# Warmup Iteration  13: 0,059 us/op
+# Warmup Iteration  14: 0,059 us/op
+# Warmup Iteration  15: 0,059 us/op
+# Warmup Iteration  16: 0,060 us/op
+# Warmup Iteration  17: 0,059 us/op
+# Warmup Iteration  18: 0,079 us/op
+# Warmup Iteration  19: 0,078 us/op
+# Warmup Iteration  20: 0,059 us/op
+Iteration   1: 0,059 us/op
+Iteration   2: 0,059 us/op
+Iteration   3: 0,059 us/op
+Iteration   4: 0,060 us/op
+Iteration   5: 0,060 us/op
+Iteration   6: 0,059 us/op
+Iteration   7: 0,059 us/op
+Iteration   8: 0,059 us/op
+Iteration   9: 0,061 us/op
+Iteration  10: 0,059 us/op
+Iteration  11: 0,058 us/op
+Iteration  12: 0,059 us/op
+Iteration  13: 0,059 us/op
+Iteration  14: 0,059 us/op
+Iteration  15: 0,059 us/op
+Iteration  16: 0,059 us/op
+Iteration  17: 0,059 us/op
+Iteration  18: 0,059 us/op
+Iteration  19: 0,060 us/op
+Iteration  20: 0,060 us/op
+
+# Run progress: 10,94% complete, ETA 00:38:30
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,076 us/op
+# Warmup Iteration   2: 0,061 us/op
+# Warmup Iteration   3: 0,059 us/op
+# Warmup Iteration   4: 0,059 us/op
+# Warmup Iteration   5: 0,059 us/op
+# Warmup Iteration   6: 0,059 us/op
+# Warmup Iteration   7: 0,059 us/op
+# Warmup Iteration   8: 0,059 us/op
+# Warmup Iteration   9: 0,059 us/op
+# Warmup Iteration  10: 0,059 us/op
+# Warmup Iteration  11: 0,060 us/op
+# Warmup Iteration  12: 0,059 us/op
+# Warmup Iteration  13: 0,058 us/op
+# Warmup Iteration  14: 0,058 us/op
+# Warmup Iteration  15: 0,059 us/op
+# Warmup Iteration  16: 0,060 us/op
+# Warmup Iteration  17: 0,059 us/op
+# Warmup Iteration  18: 0,059 us/op
+# Warmup Iteration  19: 0,059 us/op
+# Warmup Iteration  20: 0,059 us/op
+Iteration   1: 0,059 us/op
+Iteration   2: 0,059 us/op
+Iteration   3: 0,058 us/op
+Iteration   4: 0,059 us/op
+Iteration   5: 0,058 us/op
+Iteration   6: 0,058 us/op
+Iteration   7: 0,059 us/op
+Iteration   8: 0,059 us/op
+Iteration   9: 0,062 us/op
+Iteration  10: 0,059 us/op
+Iteration  11: 0,060 us/op
+Iteration  12: 0,060 us/op
+Iteration  13: 0,059 us/op
+Iteration  14: 0,058 us/op
+Iteration  15: 0,059 us/op
+Iteration  16: 0,059 us/op
+Iteration  17: 0,059 us/op
+Iteration  18: 0,109 us/op
+Iteration  19: 0,060 us/op
+Iteration  20: 0,059 us/op
+
+
+Result "testFourConcatStringsWithPlus":
+  0,060 ±(99.9%) 0,002 us/op [Average]
+  (min, avg, max) = (0,058, 0,060, 0,109), stdev = 0,007
+  CI (99.9%): [0,058, 0,063] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testFourConcatStringsWithStringBuffer
+
+# Run progress: 12,50% complete, ETA 00:37:49
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,048 us/op
+# Warmup Iteration   2: 0,043 us/op
+# Warmup Iteration   3: 0,039 us/op
+# Warmup Iteration   4: 0,039 us/op
+# Warmup Iteration   5: 0,039 us/op
+# Warmup Iteration   6: 0,040 us/op
+# Warmup Iteration   7: 0,040 us/op
+# Warmup Iteration   8: 0,040 us/op
+# Warmup Iteration   9: 0,040 us/op
+# Warmup Iteration  10: 0,040 us/op
+# Warmup Iteration  11: 0,039 us/op
+# Warmup Iteration  12: 0,039 us/op
+# Warmup Iteration  13: 0,040 us/op
+# Warmup Iteration  14: 0,040 us/op
+# Warmup Iteration  15: 0,040 us/op
+# Warmup Iteration  16: 0,040 us/op
+# Warmup Iteration  17: 0,049 us/op
+# Warmup Iteration  18: 0,049 us/op
+# Warmup Iteration  19: 0,043 us/op
+# Warmup Iteration  20: 0,040 us/op
+Iteration   1: 0,041 us/op
+Iteration   2: 0,039 us/op
+Iteration   3: 0,040 us/op
+Iteration   4: 0,039 us/op
+Iteration   5: 0,039 us/op
+Iteration   6: 0,039 us/op
+Iteration   7: 0,040 us/op
+Iteration   8: 0,040 us/op
+Iteration   9: 0,040 us/op
+Iteration  10: 0,040 us/op
+Iteration  11: 0,040 us/op
+Iteration  12: 0,040 us/op
+Iteration  13: 0,043 us/op
+Iteration  14: 0,040 us/op
+Iteration  15: 0,039 us/op
+Iteration  16: 0,040 us/op
+Iteration  17: 0,039 us/op
+Iteration  18: 0,039 us/op
+Iteration  19: 0,040 us/op
+Iteration  20: 0,040 us/op
+
+# Run progress: 14,06% complete, ETA 00:37:09
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,047 us/op
+# Warmup Iteration   2: 0,043 us/op
+# Warmup Iteration   3: 0,039 us/op
+# Warmup Iteration   4: 0,039 us/op
+# Warmup Iteration   5: 0,039 us/op
+# Warmup Iteration   6: 0,040 us/op
+# Warmup Iteration   7: 0,039 us/op
+# Warmup Iteration   8: 0,043 us/op
+# Warmup Iteration   9: 0,045 us/op
+# Warmup Iteration  10: 0,040 us/op
+# Warmup Iteration  11: 0,039 us/op
+# Warmup Iteration  12: 0,041 us/op
+# Warmup Iteration  13: 0,040 us/op
+# Warmup Iteration  14: 0,039 us/op
+# Warmup Iteration  15: 0,040 us/op
+# Warmup Iteration  16: 0,040 us/op
+# Warmup Iteration  17: 0,081 us/op
+# Warmup Iteration  18: 0,039 us/op
+# Warmup Iteration  19: 0,039 us/op
+# Warmup Iteration  20: 0,039 us/op
+Iteration   1: 0,039 us/op
+Iteration   2: 0,039 us/op
+Iteration   3: 0,039 us/op
+Iteration   4: 0,039 us/op
+Iteration   5: 0,040 us/op
+Iteration   6: 0,040 us/op
+Iteration   7: 0,039 us/op
+Iteration   8: 0,041 us/op
+Iteration   9: 0,039 us/op
+Iteration  10: 0,039 us/op
+Iteration  11: 0,039 us/op
+Iteration  12: 0,039 us/op
+Iteration  13: 0,040 us/op
+Iteration  14: 0,039 us/op
+Iteration  15: 0,040 us/op
+Iteration  16: 0,040 us/op
+Iteration  17: 0,043 us/op
+Iteration  18: 0,044 us/op
+Iteration  19: 0,047 us/op
+Iteration  20: 0,040 us/op
+
+# Run progress: 15,63% complete, ETA 00:36:28
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,047 us/op
+# Warmup Iteration   2: 0,042 us/op
+# Warmup Iteration   3: 0,039 us/op
+# Warmup Iteration   4: 0,039 us/op
+# Warmup Iteration   5: 0,039 us/op
+# Warmup Iteration   6: 0,039 us/op
+# Warmup Iteration   7: 0,039 us/op
+# Warmup Iteration   8: 0,039 us/op
+# Warmup Iteration   9: 0,039 us/op
+# Warmup Iteration  10: 0,039 us/op
+# Warmup Iteration  11: 0,039 us/op
+# Warmup Iteration  12: 0,039 us/op
+# Warmup Iteration  13: 0,039 us/op
+# Warmup Iteration  14: 0,040 us/op
+# Warmup Iteration  15: 0,040 us/op
+# Warmup Iteration  16: 0,039 us/op
+# Warmup Iteration  17: 0,039 us/op
+# Warmup Iteration  18: 0,039 us/op
+# Warmup Iteration  19: 0,040 us/op
+# Warmup Iteration  20: 0,040 us/op
+Iteration   1: 0,040 us/op
+Iteration   2: 0,040 us/op
+Iteration   3: 0,040 us/op
+Iteration   4: 0,040 us/op
+Iteration   5: 0,040 us/op
+Iteration   6: 0,039 us/op
+Iteration   7: 0,040 us/op
+Iteration   8: 0,039 us/op
+Iteration   9: 0,041 us/op
+Iteration  10: 0,040 us/op
+Iteration  11: 0,039 us/op
+Iteration  12: 0,039 us/op
+Iteration  13: 0,040 us/op
+Iteration  14: 0,040 us/op
+Iteration  15: 0,040 us/op
+Iteration  16: 0,054 us/op
+Iteration  17: 0,052 us/op
+Iteration  18: 0,039 us/op
+Iteration  19: 0,039 us/op
+Iteration  20: 0,039 us/op
+
+# Run progress: 17,19% complete, ETA 00:35:47
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,047 us/op
+# Warmup Iteration   2: 0,043 us/op
+# Warmup Iteration   3: 0,039 us/op
+# Warmup Iteration   4: 0,041 us/op
+# Warmup Iteration   5: 0,042 us/op
+# Warmup Iteration   6: 0,039 us/op
+# Warmup Iteration   7: 0,040 us/op
+# Warmup Iteration   8: 0,040 us/op
+# Warmup Iteration   9: 0,039 us/op
+# Warmup Iteration  10: 0,039 us/op
+# Warmup Iteration  11: 0,039 us/op
+# Warmup Iteration  12: 0,039 us/op
+# Warmup Iteration  13: 0,039 us/op
+# Warmup Iteration  14: 0,039 us/op
+# Warmup Iteration  15: 0,039 us/op
+# Warmup Iteration  16: 0,040 us/op
+# Warmup Iteration  17: 0,040 us/op
+# Warmup Iteration  18: 0,039 us/op
+# Warmup Iteration  19: 0,040 us/op
+# Warmup Iteration  20: 0,039 us/op
+Iteration   1: 0,040 us/op
+Iteration   2: 0,040 us/op
+Iteration   3: 0,039 us/op
+Iteration   4: 0,039 us/op
+Iteration   5: 0,039 us/op
+Iteration   6: 0,039 us/op
+Iteration   7: 0,039 us/op
+Iteration   8: 0,039 us/op
+Iteration   9: 0,039 us/op
+Iteration  10: 0,040 us/op
+Iteration  11: 0,039 us/op
+Iteration  12: 0,040 us/op
+Iteration  13: 0,039 us/op
+Iteration  14: 0,040 us/op
+Iteration  15: 0,039 us/op
+Iteration  16: 0,039 us/op
+Iteration  17: 0,039 us/op
+Iteration  18: 0,039 us/op
+Iteration  19: 0,039 us/op
+Iteration  20: 0,040 us/op
+
+
+Result "testFourConcatStringsWithStringBuffer":
+  0,040 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,039, 0,040, 0,054), stdev = 0,002
+  CI (99.9%): [0,039, 0,041] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testFourConcatStringsWithStringBuilder
+
+# Run progress: 18,75% complete, ETA 00:35:06
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,047 us/op
+# Warmup Iteration   2: 0,043 us/op
+# Warmup Iteration   3: 0,038 us/op
+# Warmup Iteration   4: 0,038 us/op
+# Warmup Iteration   5: 0,039 us/op
+# Warmup Iteration   6: 0,039 us/op
+# Warmup Iteration   7: 0,038 us/op
+# Warmup Iteration   8: 0,039 us/op
+# Warmup Iteration   9: 0,041 us/op
+# Warmup Iteration  10: 0,039 us/op
+# Warmup Iteration  11: 0,039 us/op
+# Warmup Iteration  12: 0,039 us/op
+# Warmup Iteration  13: 0,039 us/op
+# Warmup Iteration  14: 0,039 us/op
+# Warmup Iteration  15: 0,054 us/op
+# Warmup Iteration  16: 0,051 us/op
+# Warmup Iteration  17: 0,039 us/op
+# Warmup Iteration  18: 0,038 us/op
+# Warmup Iteration  19: 0,039 us/op
+# Warmup Iteration  20: 0,039 us/op
+Iteration   1: 0,039 us/op
+Iteration   2: 0,040 us/op
+Iteration   3: 0,039 us/op
+Iteration   4: 0,039 us/op
+Iteration   5: 0,039 us/op
+Iteration   6: 0,039 us/op
+Iteration   7: 0,041 us/op
+Iteration   8: 0,038 us/op
+Iteration   9: 0,039 us/op
+Iteration  10: 0,039 us/op
+Iteration  11: 0,039 us/op
+Iteration  12: 0,039 us/op
+Iteration  13: 0,038 us/op
+Iteration  14: 0,039 us/op
+Iteration  15: 0,039 us/op
+Iteration  16: 0,039 us/op
+Iteration  17: 0,040 us/op
+Iteration  18: 0,039 us/op
+Iteration  19: 0,039 us/op
+Iteration  20: 0,039 us/op
+
+# Run progress: 20,31% complete, ETA 00:34:26
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,048 us/op
+# Warmup Iteration   2: 0,043 us/op
+# Warmup Iteration   3: 0,039 us/op
+# Warmup Iteration   4: 0,039 us/op
+# Warmup Iteration   5: 0,039 us/op
+# Warmup Iteration   6: 0,039 us/op
+# Warmup Iteration   7: 0,039 us/op
+# Warmup Iteration   8: 0,039 us/op
+# Warmup Iteration   9: 0,040 us/op
+# Warmup Iteration  10: 0,039 us/op
+# Warmup Iteration  11: 0,039 us/op
+# Warmup Iteration  12: 0,039 us/op
+# Warmup Iteration  13: 0,039 us/op
+# Warmup Iteration  14: 0,039 us/op
+# Warmup Iteration  15: 0,039 us/op
+# Warmup Iteration  16: 0,039 us/op
+# Warmup Iteration  17: 0,039 us/op
+# Warmup Iteration  18: 0,040 us/op
+# Warmup Iteration  19: 0,039 us/op
+# Warmup Iteration  20: 0,039 us/op
+Iteration   1: 0,040 us/op
+Iteration   2: 0,040 us/op
+Iteration   3: 0,040 us/op
+Iteration   4: 0,041 us/op
+Iteration   5: 0,040 us/op
+Iteration   6: 0,039 us/op
+Iteration   7: 0,039 us/op
+Iteration   8: 0,040 us/op
+Iteration   9: 0,041 us/op
+Iteration  10: 0,040 us/op
+Iteration  11: 0,039 us/op
+Iteration  12: 0,039 us/op
+Iteration  13: 0,039 us/op
+Iteration  14: 0,040 us/op
+Iteration  15: 0,069 us/op
+Iteration  16: 0,041 us/op
+Iteration  17: 0,039 us/op
+Iteration  18: 0,038 us/op
+Iteration  19: 0,039 us/op
+Iteration  20: 0,039 us/op
+
+# Run progress: 21,88% complete, ETA 00:33:45
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,047 us/op
+# Warmup Iteration   2: 0,042 us/op
+# Warmup Iteration   3: 0,039 us/op
+# Warmup Iteration   4: 0,039 us/op
+# Warmup Iteration   5: 0,039 us/op
+# Warmup Iteration   6: 0,040 us/op
+# Warmup Iteration   7: 0,040 us/op
+# Warmup Iteration   8: 0,039 us/op
+# Warmup Iteration   9: 0,039 us/op
+# Warmup Iteration  10: 0,039 us/op
+# Warmup Iteration  11: 0,039 us/op
+# Warmup Iteration  12: 0,039 us/op
+# Warmup Iteration  13: 0,039 us/op
+# Warmup Iteration  14: 0,039 us/op
+# Warmup Iteration  15: 0,039 us/op
+# Warmup Iteration  16: 0,039 us/op
+# Warmup Iteration  17: 0,038 us/op
+# Warmup Iteration  18: 0,039 us/op
+# Warmup Iteration  19: 0,039 us/op
+# Warmup Iteration  20: 0,039 us/op
+Iteration   1: 0,042 us/op
+Iteration   2: 0,040 us/op
+Iteration   3: 0,040 us/op
+Iteration   4: 0,039 us/op
+Iteration   5: 0,039 us/op
+Iteration   6: 0,039 us/op
+Iteration   7: 0,039 us/op
+Iteration   8: 0,040 us/op
+Iteration   9: 0,039 us/op
+Iteration  10: 0,039 us/op
+Iteration  11: 0,039 us/op
+Iteration  12: 0,039 us/op
+Iteration  13: 0,039 us/op
+Iteration  14: 0,039 us/op
+Iteration  15: 0,039 us/op
+Iteration  16: 0,039 us/op
+Iteration  17: 0,039 us/op
+Iteration  18: 0,039 us/op
+Iteration  19: 0,039 us/op
+Iteration  20: 0,040 us/op
+
+# Run progress: 23,44% complete, ETA 00:33:05
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,047 us/op
+# Warmup Iteration   2: 0,042 us/op
+# Warmup Iteration   3: 0,039 us/op
+# Warmup Iteration   4: 0,039 us/op
+# Warmup Iteration   5: 0,039 us/op
+# Warmup Iteration   6: 0,039 us/op
+# Warmup Iteration   7: 0,041 us/op
+# Warmup Iteration   8: 0,039 us/op
+# Warmup Iteration   9: 0,041 us/op
+# Warmup Iteration  10: 0,040 us/op
+# Warmup Iteration  11: 0,039 us/op
+# Warmup Iteration  12: 0,039 us/op
+# Warmup Iteration  13: 0,039 us/op
+# Warmup Iteration  14: 0,063 us/op
+# Warmup Iteration  15: 0,044 us/op
+# Warmup Iteration  16: 0,039 us/op
+# Warmup Iteration  17: 0,039 us/op
+# Warmup Iteration  18: 0,039 us/op
+# Warmup Iteration  19: 0,040 us/op
+# Warmup Iteration  20: 0,039 us/op
+Iteration   1: 0,040 us/op
+Iteration   2: 0,040 us/op
+Iteration   3: 0,040 us/op
+Iteration   4: 0,039 us/op
+Iteration   5: 0,039 us/op
+Iteration   6: 0,039 us/op
+Iteration   7: 0,040 us/op
+Iteration   8: 0,038 us/op
+Iteration   9: 0,039 us/op
+Iteration  10: 0,039 us/op
+Iteration  11: 0,040 us/op
+Iteration  12: 0,041 us/op
+Iteration  13: 0,039 us/op
+Iteration  14: 0,039 us/op
+Iteration  15: 0,039 us/op
+Iteration  16: 0,039 us/op
+Iteration  17: 0,039 us/op
+Iteration  18: 0,040 us/op
+Iteration  19: 0,040 us/op
+Iteration  20: 0,039 us/op
+
+
+Result "testFourConcatStringsWithStringBuilder":
+  0,040 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,038, 0,040, 0,069), stdev = 0,003
+  CI (99.9%): [0,038, 0,041] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testLongConcatStringsWithConcat
+
+# Run progress: 25,00% complete, ETA 00:32:24
+# Fork: 1 of 4
+# Warmup Iteration   1: 2,389 us/op
+# Warmup Iteration   2: 2,160 us/op
+# Warmup Iteration   3: 1,975 us/op
+# Warmup Iteration   4: 1,958 us/op
+# Warmup Iteration   5: 1,981 us/op
+# Warmup Iteration   6: 1,985 us/op
+# Warmup Iteration   7: 1,972 us/op
+# Warmup Iteration   8: 1,985 us/op
+# Warmup Iteration   9: 2,001 us/op
+# Warmup Iteration  10: 2,007 us/op
+# Warmup Iteration  11: 1,988 us/op
+# Warmup Iteration  12: 1,960 us/op
+# Warmup Iteration  13: 1,985 us/op
+# Warmup Iteration  14: 1,980 us/op
+# Warmup Iteration  15: 1,957 us/op
+# Warmup Iteration  16: 1,993 us/op
+# Warmup Iteration  17: 2,070 us/op
+# Warmup Iteration  18: 2,052 us/op
+# Warmup Iteration  19: 2,066 us/op
+# Warmup Iteration  20: 2,057 us/op
+Iteration   1: 2,043 us/op
+Iteration   2: 2,080 us/op
+Iteration   3: 2,069 us/op
+Iteration   4: 2,039 us/op
+Iteration   5: 2,069 us/op
+Iteration   6: 2,053 us/op
+Iteration   7: 2,097 us/op
+Iteration   8: 2,039 us/op
+Iteration   9: 2,100 us/op
+Iteration  10: 2,123 us/op
+Iteration  11: 2,035 us/op
+Iteration  12: 2,042 us/op
+Iteration  13: 2,686 us/op
+Iteration  14: 2,660 us/op
+Iteration  15: 2,050 us/op
+Iteration  16: 2,024 us/op
+Iteration  17: 2,013 us/op
+Iteration  18: 2,045 us/op
+Iteration  19: 2,029 us/op
+Iteration  20: 2,039 us/op
+
+# Run progress: 26,56% complete, ETA 00:31:44
+# Fork: 2 of 4
+# Warmup Iteration   1: 2,364 us/op
+# Warmup Iteration   2: 2,173 us/op
+# Warmup Iteration   3: 1,990 us/op
+# Warmup Iteration   4: 1,995 us/op
+# Warmup Iteration   5: 1,963 us/op
+# Warmup Iteration   6: 2,026 us/op
+# Warmup Iteration   7: 1,996 us/op
+# Warmup Iteration   8: 1,979 us/op
+# Warmup Iteration   9: 2,017 us/op
+# Warmup Iteration  10: 1,997 us/op
+# Warmup Iteration  11: 1,996 us/op
+# Warmup Iteration  12: 2,007 us/op
+# Warmup Iteration  13: 1,990 us/op
+# Warmup Iteration  14: 1,998 us/op
+# Warmup Iteration  15: 1,988 us/op
+# Warmup Iteration  16: 1,963 us/op
+# Warmup Iteration  17: 1,968 us/op
+# Warmup Iteration  18: 1,957 us/op
+# Warmup Iteration  19: 1,989 us/op
+# Warmup Iteration  20: 1,991 us/op
+Iteration   1: 1,961 us/op
+Iteration   2: 2,038 us/op
+Iteration   3: 1,984 us/op
+Iteration   4: 1,977 us/op
+Iteration   5: 1,976 us/op
+Iteration   6: 1,983 us/op
+Iteration   7: 1,991 us/op
+Iteration   8: 1,974 us/op
+Iteration   9: 1,977 us/op
+Iteration  10: 1,998 us/op
+Iteration  11: 1,990 us/op
+Iteration  12: 1,981 us/op
+Iteration  13: 1,982 us/op
+Iteration  14: 1,992 us/op
+Iteration  15: 1,984 us/op
+Iteration  16: 2,005 us/op
+Iteration  17: 1,978 us/op
+Iteration  18: 1,970 us/op
+Iteration  19: 1,977 us/op
+Iteration  20: 1,957 us/op
+
+# Run progress: 28,13% complete, ETA 00:31:03
+# Fork: 3 of 4
+# Warmup Iteration   1: 2,366 us/op
+# Warmup Iteration   2: 2,146 us/op
+# Warmup Iteration   3: 1,946 us/op
+# Warmup Iteration   4: 1,957 us/op
+# Warmup Iteration   5: 1,947 us/op
+# Warmup Iteration   6: 1,968 us/op
+# Warmup Iteration   7: 1,977 us/op
+# Warmup Iteration   8: 1,995 us/op
+# Warmup Iteration   9: 2,003 us/op
+# Warmup Iteration  10: 2,065 us/op
+# Warmup Iteration  11: 1,986 us/op
+# Warmup Iteration  12: 2,325 us/op
+# Warmup Iteration  13: 2,791 us/op
+# Warmup Iteration  14: 1,972 us/op
+# Warmup Iteration  15: 1,979 us/op
+# Warmup Iteration  16: 1,974 us/op
+# Warmup Iteration  17: 1,963 us/op
+# Warmup Iteration  18: 1,962 us/op
+# Warmup Iteration  19: 2,008 us/op
+# Warmup Iteration  20: 1,998 us/op
+Iteration   1: 1,998 us/op
+Iteration   2: 1,990 us/op
+Iteration   3: 2,001 us/op
+Iteration   4: 1,981 us/op
+Iteration   5: 1,988 us/op
+Iteration   6: 2,012 us/op
+Iteration   7: 1,983 us/op
+Iteration   8: 1,986 us/op
+Iteration   9: 1,999 us/op
+Iteration  10: 1,984 us/op
+Iteration  11: 2,102 us/op
+Iteration  12: 2,013 us/op
+Iteration  13: 2,011 us/op
+Iteration  14: 1,999 us/op
+Iteration  15: 1,986 us/op
+Iteration  16: 2,010 us/op
+Iteration  17: 1,972 us/op
+Iteration  18: 1,972 us/op
+Iteration  19: 1,963 us/op
+Iteration  20: 1,979 us/op
+
+# Run progress: 29,69% complete, ETA 00:30:22
+# Fork: 4 of 4
+# Warmup Iteration   1: 2,352 us/op
+# Warmup Iteration   2: 2,162 us/op
+# Warmup Iteration   3: 1,977 us/op
+# Warmup Iteration   4: 2,023 us/op
+# Warmup Iteration   5: 1,957 us/op
+# Warmup Iteration   6: 1,978 us/op
+# Warmup Iteration   7: 1,964 us/op
+# Warmup Iteration   8: 1,987 us/op
+# Warmup Iteration   9: 2,003 us/op
+# Warmup Iteration  10: 1,984 us/op
+# Warmup Iteration  11: 2,007 us/op
+# Warmup Iteration  12: 1,995 us/op
+# Warmup Iteration  13: 2,001 us/op
+# Warmup Iteration  14: 1,994 us/op
+# Warmup Iteration  15: 2,022 us/op
+# Warmup Iteration  16: 1,986 us/op
+# Warmup Iteration  17: 2,006 us/op
+# Warmup Iteration  18: 1,969 us/op
+# Warmup Iteration  19: 1,992 us/op
+# Warmup Iteration  20: 1,978 us/op
+Iteration   1: 1,988 us/op
+Iteration   2: 1,976 us/op
+Iteration   3: 1,966 us/op
+Iteration   4: 1,970 us/op
+Iteration   5: 1,968 us/op
+Iteration   6: 1,982 us/op
+Iteration   7: 2,021 us/op
+Iteration   8: 1,977 us/op
+Iteration   9: 2,006 us/op
+Iteration  10: 2,052 us/op
+Iteration  11: 1,992 us/op
+Iteration  12: 3,224 us/op
+Iteration  13: 2,072 us/op
+Iteration  14: 2,061 us/op
+Iteration  15: 1,961 us/op
+Iteration  16: 1,960 us/op
+Iteration  17: 1,962 us/op
+Iteration  18: 1,955 us/op
+Iteration  19: 1,967 us/op
+Iteration  20: 1,981 us/op
+
+
+Result "testLongConcatStringsWithConcat":
+  2,037 ±(99.9%) 0,067 us/op [Average]
+  (min, avg, max) = (1,955, 2,037, 3,224), stdev = 0,175
+  CI (99.9%): [1,970, 2,104] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testLongConcatStringsWithPlus
+
+# Run progress: 31,25% complete, ETA 00:29:42
+# Fork: 1 of 4
+# Warmup Iteration   1: 1,071 us/op
+# Warmup Iteration   2: 0,847 us/op
+# Warmup Iteration   3: 0,848 us/op
+# Warmup Iteration   4: 0,846 us/op
+# Warmup Iteration   5: 0,871 us/op
+# Warmup Iteration   6: 0,856 us/op
+# Warmup Iteration   7: 0,853 us/op
+# Warmup Iteration   8: 0,854 us/op
+# Warmup Iteration   9: 0,853 us/op
+# Warmup Iteration  10: 0,858 us/op
+# Warmup Iteration  11: 0,857 us/op
+# Warmup Iteration  12: 0,859 us/op
+# Warmup Iteration  13: 0,848 us/op
+# Warmup Iteration  14: 0,851 us/op
+# Warmup Iteration  15: 0,854 us/op
+# Warmup Iteration  16: 0,849 us/op
+# Warmup Iteration  17: 0,861 us/op
+# Warmup Iteration  18: 0,863 us/op
+# Warmup Iteration  19: 0,857 us/op
+# Warmup Iteration  20: 0,855 us/op
+Iteration   1: 0,853 us/op
+Iteration   2: 0,849 us/op
+Iteration   3: 0,854 us/op
+Iteration   4: 0,857 us/op
+Iteration   5: 0,868 us/op
+Iteration   6: 0,842 us/op
+Iteration   7: 0,850 us/op
+Iteration   8: 0,857 us/op
+Iteration   9: 0,882 us/op
+Iteration  10: 0,849 us/op
+Iteration  11: 0,846 us/op
+Iteration  12: 0,857 us/op
+Iteration  13: 0,860 us/op
+Iteration  14: 0,855 us/op
+Iteration  15: 0,841 us/op
+Iteration  16: 0,847 us/op
+Iteration  17: 0,853 us/op
+Iteration  18: 0,855 us/op
+Iteration  19: 0,853 us/op
+Iteration  20: 0,858 us/op
+
+# Run progress: 32,81% complete, ETA 00:29:01
+# Fork: 2 of 4
+# Warmup Iteration   1: 1,149 us/op
+# Warmup Iteration   2: 0,890 us/op
+# Warmup Iteration   3: 0,885 us/op
+# Warmup Iteration   4: 0,885 us/op
+# Warmup Iteration   5: 0,888 us/op
+# Warmup Iteration   6: 0,886 us/op
+# Warmup Iteration   7: 0,888 us/op
+# Warmup Iteration   8: 0,889 us/op
+# Warmup Iteration   9: 0,886 us/op
+# Warmup Iteration  10: 0,921 us/op
+# Warmup Iteration  11: 1,358 us/op
+# Warmup Iteration  12: 1,018 us/op
+# Warmup Iteration  13: 0,881 us/op
+# Warmup Iteration  14: 0,906 us/op
+# Warmup Iteration  15: 0,923 us/op
+# Warmup Iteration  16: 0,886 us/op
+# Warmup Iteration  17: 0,861 us/op
+# Warmup Iteration  18: 0,845 us/op
+# Warmup Iteration  19: 0,855 us/op
+# Warmup Iteration  20: 0,849 us/op
+Iteration   1: 0,855 us/op
+Iteration   2: 0,860 us/op
+Iteration   3: 0,859 us/op
+Iteration   4: 0,864 us/op
+Iteration   5: 0,874 us/op
+Iteration   6: 0,850 us/op
+Iteration   7: 0,840 us/op
+Iteration   8: 0,847 us/op
+Iteration   9: 0,848 us/op
+Iteration  10: 0,849 us/op
+Iteration  11: 0,852 us/op
+Iteration  12: 0,849 us/op
+Iteration  13: 0,861 us/op
+Iteration  14: 0,850 us/op
+Iteration  15: 0,852 us/op
+Iteration  16: 0,845 us/op
+Iteration  17: 0,845 us/op
+Iteration  18: 0,846 us/op
+Iteration  19: 0,854 us/op
+Iteration  20: 0,858 us/op
+
+# Run progress: 34,38% complete, ETA 00:28:21
+# Fork: 3 of 4
+# Warmup Iteration   1: 1,067 us/op
+# Warmup Iteration   2: 0,837 us/op
+# Warmup Iteration   3: 0,847 us/op
+# Warmup Iteration   4: 0,843 us/op
+# Warmup Iteration   5: 0,839 us/op
+# Warmup Iteration   6: 0,849 us/op
+# Warmup Iteration   7: 0,853 us/op
+# Warmup Iteration   8: 0,852 us/op
+# Warmup Iteration   9: 0,853 us/op
+# Warmup Iteration  10: 0,850 us/op
+# Warmup Iteration  11: 0,854 us/op
+# Warmup Iteration  12: 0,855 us/op
+# Warmup Iteration  13: 0,852 us/op
+# Warmup Iteration  14: 0,858 us/op
+# Warmup Iteration  15: 0,853 us/op
+# Warmup Iteration  16: 0,843 us/op
+# Warmup Iteration  17: 0,852 us/op
+# Warmup Iteration  18: 0,849 us/op
+# Warmup Iteration  19: 0,879 us/op
+# Warmup Iteration  20: 0,866 us/op
+Iteration   1: 0,857 us/op
+Iteration   2: 0,843 us/op
+Iteration   3: 0,833 us/op
+Iteration   4: 0,850 us/op
+Iteration   5: 0,846 us/op
+Iteration   6: 0,852 us/op
+Iteration   7: 0,861 us/op
+Iteration   8: 0,853 us/op
+Iteration   9: 0,857 us/op
+Iteration  10: 0,882 us/op
+Iteration  11: 0,855 us/op
+Iteration  12: 1,110 us/op
+Iteration  13: 1,108 us/op
+Iteration  14: 0,855 us/op
+Iteration  15: 0,855 us/op
+Iteration  16: 0,850 us/op
+Iteration  17: 0,845 us/op
+Iteration  18: 0,843 us/op
+Iteration  19: 0,852 us/op
+Iteration  20: 0,854 us/op
+
+# Run progress: 35,94% complete, ETA 00:27:40
+# Fork: 4 of 4
+# Warmup Iteration   1: 1,081 us/op
+# Warmup Iteration   2: 0,837 us/op
+# Warmup Iteration   3: 0,851 us/op
+# Warmup Iteration   4: 0,864 us/op
+# Warmup Iteration   5: 0,852 us/op
+# Warmup Iteration   6: 0,842 us/op
+# Warmup Iteration   7: 0,854 us/op
+# Warmup Iteration   8: 0,841 us/op
+# Warmup Iteration   9: 0,862 us/op
+# Warmup Iteration  10: 0,843 us/op
+# Warmup Iteration  11: 0,852 us/op
+# Warmup Iteration  12: 0,911 us/op
+# Warmup Iteration  13: 1,005 us/op
+# Warmup Iteration  14: 1,023 us/op
+# Warmup Iteration  15: 0,929 us/op
+# Warmup Iteration  16: 0,858 us/op
+# Warmup Iteration  17: 0,846 us/op
+# Warmup Iteration  18: 0,856 us/op
+# Warmup Iteration  19: 0,846 us/op
+# Warmup Iteration  20: 0,847 us/op
+Iteration   1: 0,840 us/op
+Iteration   2: 0,851 us/op
+Iteration   3: 0,856 us/op
+Iteration   4: 0,857 us/op
+Iteration   5: 0,851 us/op
+Iteration   6: 0,854 us/op
+Iteration   7: 0,876 us/op
+Iteration   8: 0,883 us/op
+Iteration   9: 0,849 us/op
+Iteration  10: 0,861 us/op
+Iteration  11: 0,851 us/op
+Iteration  12: 0,863 us/op
+Iteration  13: 0,844 us/op
+Iteration  14: 0,846 us/op
+Iteration  15: 0,845 us/op
+Iteration  16: 0,846 us/op
+Iteration  17: 0,851 us/op
+Iteration  18: 0,849 us/op
+Iteration  19: 0,848 us/op
+Iteration  20: 0,853 us/op
+
+
+Result "testLongConcatStringsWithPlus":
+  0,860 ±(99.9%) 0,016 us/op [Average]
+  (min, avg, max) = (0,833, 0,860, 1,110), stdev = 0,041
+  CI (99.9%): [0,844, 0,876] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testLongConcatStringsWithStringBuffer
+
+# Run progress: 37,50% complete, ETA 00:27:00
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,666 us/op
+# Warmup Iteration   2: 0,638 us/op
+# Warmup Iteration   3: 0,621 us/op
+# Warmup Iteration   4: 0,610 us/op
+# Warmup Iteration   5: 0,617 us/op
+# Warmup Iteration   6: 0,609 us/op
+# Warmup Iteration   7: 0,611 us/op
+# Warmup Iteration   8: 0,611 us/op
+# Warmup Iteration   9: 0,618 us/op
+# Warmup Iteration  10: 0,647 us/op
+# Warmup Iteration  11: 0,862 us/op
+# Warmup Iteration  12: 0,825 us/op
+# Warmup Iteration  13: 0,605 us/op
+# Warmup Iteration  14: 0,648 us/op
+# Warmup Iteration  15: 0,753 us/op
+# Warmup Iteration  16: 0,675 us/op
+# Warmup Iteration  17: 0,617 us/op
+# Warmup Iteration  18: 0,618 us/op
+# Warmup Iteration  19: 0,624 us/op
+# Warmup Iteration  20: 0,624 us/op
+Iteration   1: 0,631 us/op
+Iteration   2: 0,622 us/op
+Iteration   3: 0,622 us/op
+Iteration   4: 0,654 us/op
+Iteration   5: 0,642 us/op
+Iteration   6: 0,639 us/op
+Iteration   7: 0,626 us/op
+Iteration   8: 0,622 us/op
+Iteration   9: 0,626 us/op
+Iteration  10: 0,617 us/op
+Iteration  11: 0,621 us/op
+Iteration  12: 0,627 us/op
+Iteration  13: 0,630 us/op
+Iteration  14: 0,626 us/op
+Iteration  15: 0,619 us/op
+Iteration  16: 0,618 us/op
+Iteration  17: 0,617 us/op
+Iteration  18: 0,622 us/op
+Iteration  19: 0,621 us/op
+Iteration  20: 0,620 us/op
+
+# Run progress: 39,06% complete, ETA 00:26:19
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,662 us/op
+# Warmup Iteration   2: 0,640 us/op
+# Warmup Iteration   3: 0,602 us/op
+# Warmup Iteration   4: 0,618 us/op
+# Warmup Iteration   5: 0,602 us/op
+# Warmup Iteration   6: 0,608 us/op
+# Warmup Iteration   7: 0,609 us/op
+# Warmup Iteration   8: 0,610 us/op
+# Warmup Iteration   9: 0,612 us/op
+# Warmup Iteration  10: 0,613 us/op
+# Warmup Iteration  11: 0,610 us/op
+# Warmup Iteration  12: 0,610 us/op
+# Warmup Iteration  13: 0,611 us/op
+# Warmup Iteration  14: 0,613 us/op
+# Warmup Iteration  15: 0,612 us/op
+# Warmup Iteration  16: 0,612 us/op
+# Warmup Iteration  17: 0,611 us/op
+# Warmup Iteration  18: 0,616 us/op
+# Warmup Iteration  19: 0,614 us/op
+# Warmup Iteration  20: 0,622 us/op
+Iteration   1: 0,613 us/op
+Iteration   2: 0,619 us/op
+Iteration   3: 0,612 us/op
+Iteration   4: 0,610 us/op
+Iteration   5: 0,616 us/op
+Iteration   6: 0,610 us/op
+Iteration   7: 0,608 us/op
+Iteration   8: 0,614 us/op
+Iteration   9: 0,609 us/op
+Iteration  10: 0,622 us/op
+Iteration  11: 1,048 us/op
+Iteration  12: 0,599 us/op
+Iteration  13: 0,639 us/op
+Iteration  14: 0,618 us/op
+Iteration  15: 0,656 us/op
+Iteration  16: 0,606 us/op
+Iteration  17: 0,617 us/op
+Iteration  18: 0,622 us/op
+Iteration  19: 0,609 us/op
+Iteration  20: 0,623 us/op
+
+# Run progress: 40,63% complete, ETA 00:25:39
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,666 us/op
+# Warmup Iteration   2: 0,637 us/op
+# Warmup Iteration   3: 0,659 us/op
+# Warmup Iteration   4: 0,604 us/op
+# Warmup Iteration   5: 0,608 us/op
+# Warmup Iteration   6: 0,646 us/op
+# Warmup Iteration   7: 0,607 us/op
+# Warmup Iteration   8: 0,620 us/op
+# Warmup Iteration   9: 0,628 us/op
+# Warmup Iteration  10: 0,608 us/op
+# Warmup Iteration  11: 0,611 us/op
+# Warmup Iteration  12: 0,601 us/op
+# Warmup Iteration  13: 0,615 us/op
+# Warmup Iteration  14: 0,607 us/op
+# Warmup Iteration  15: 0,615 us/op
+# Warmup Iteration  16: 0,621 us/op
+# Warmup Iteration  17: 0,605 us/op
+# Warmup Iteration  18: 0,609 us/op
+# Warmup Iteration  19: 0,622 us/op
+# Warmup Iteration  20: 0,605 us/op
+Iteration   1: 0,607 us/op
+Iteration   2: 0,611 us/op
+Iteration   3: 0,606 us/op
+Iteration   4: 0,619 us/op
+Iteration   5: 0,612 us/op
+Iteration   6: 0,607 us/op
+Iteration   7: 0,629 us/op
+Iteration   8: 0,613 us/op
+Iteration   9: 0,615 us/op
+Iteration  10: 0,607 us/op
+Iteration  11: 0,609 us/op
+Iteration  12: 0,609 us/op
+Iteration  13: 0,605 us/op
+Iteration  14: 0,608 us/op
+Iteration  15: 0,607 us/op
+Iteration  16: 0,600 us/op
+Iteration  17: 0,610 us/op
+Iteration  18: 0,647 us/op
+Iteration  19: 0,630 us/op
+Iteration  20: 0,648 us/op
+
+# Run progress: 42,19% complete, ETA 00:24:58
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,702 us/op
+# Warmup Iteration   2: 0,660 us/op
+# Warmup Iteration   3: 0,652 us/op
+# Warmup Iteration   4: 0,614 us/op
+# Warmup Iteration   5: 0,598 us/op
+# Warmup Iteration   6: 0,602 us/op
+# Warmup Iteration   7: 0,625 us/op
+# Warmup Iteration   8: 0,625 us/op
+# Warmup Iteration   9: 0,639 us/op
+# Warmup Iteration  10: 0,991 us/op
+# Warmup Iteration  11: 0,766 us/op
+# Warmup Iteration  12: 0,606 us/op
+# Warmup Iteration  13: 0,640 us/op
+# Warmup Iteration  14: 0,598 us/op
+# Warmup Iteration  15: 0,605 us/op
+# Warmup Iteration  16: 0,604 us/op
+# Warmup Iteration  17: 0,673 us/op
+# Warmup Iteration  18: 0,633 us/op
+# Warmup Iteration  19: 0,616 us/op
+# Warmup Iteration  20: 0,606 us/op
+Iteration   1: 0,601 us/op
+Iteration   2: 0,607 us/op
+Iteration   3: 0,643 us/op
+Iteration   4: 0,601 us/op
+Iteration   5: 0,603 us/op
+Iteration   6: 0,597 us/op
+Iteration   7: 0,603 us/op
+Iteration   8: 0,597 us/op
+Iteration   9: 0,601 us/op
+Iteration  10: 0,605 us/op
+Iteration  11: 0,601 us/op
+Iteration  12: 0,604 us/op
+Iteration  13: 0,605 us/op
+Iteration  14: 0,608 us/op
+Iteration  15: 0,606 us/op
+Iteration  16: 0,604 us/op
+Iteration  17: 0,612 us/op
+Iteration  18: 0,606 us/op
+Iteration  19: 0,608 us/op
+Iteration  20: 0,613 us/op
+
+
+Result "testLongConcatStringsWithStringBuffer":
+  0,621 ±(99.9%) 0,019 us/op [Average]
+  (min, avg, max) = (0,597, 0,621, 1,048), stdev = 0,050
+  CI (99.9%): [0,602, 0,641] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testLongConcatStringsWithStringBuilder
+
+# Run progress: 43,75% complete, ETA 00:24:17
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,646 us/op
+# Warmup Iteration   2: 0,613 us/op
+# Warmup Iteration   3: 0,569 us/op
+# Warmup Iteration   4: 0,575 us/op
+# Warmup Iteration   5: 0,573 us/op
+# Warmup Iteration   6: 0,575 us/op
+# Warmup Iteration   7: 0,585 us/op
+# Warmup Iteration   8: 0,631 us/op
+# Warmup Iteration   9: 0,609 us/op
+# Warmup Iteration  10: 0,581 us/op
+# Warmup Iteration  11: 0,590 us/op
+# Warmup Iteration  12: 0,584 us/op
+# Warmup Iteration  13: 0,584 us/op
+# Warmup Iteration  14: 0,591 us/op
+# Warmup Iteration  15: 0,581 us/op
+# Warmup Iteration  16: 0,580 us/op
+# Warmup Iteration  17: 0,589 us/op
+# Warmup Iteration  18: 0,586 us/op
+# Warmup Iteration  19: 0,588 us/op
+# Warmup Iteration  20: 0,588 us/op
+Iteration   1: 0,579 us/op
+Iteration   2: 0,582 us/op
+Iteration   3: 0,583 us/op
+Iteration   4: 0,579 us/op
+Iteration   5: 0,580 us/op
+Iteration   6: 0,581 us/op
+Iteration   7: 0,585 us/op
+Iteration   8: 0,585 us/op
+Iteration   9: 0,634 us/op
+Iteration  10: 0,951 us/op
+Iteration  11: 0,602 us/op
+Iteration  12: 0,584 us/op
+Iteration  13: 0,574 us/op
+Iteration  14: 0,578 us/op
+Iteration  15: 0,579 us/op
+Iteration  16: 0,583 us/op
+Iteration  17: 0,588 us/op
+Iteration  18: 0,584 us/op
+Iteration  19: 0,588 us/op
+Iteration  20: 0,582 us/op
+
+# Run progress: 45,31% complete, ETA 00:23:37
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,646 us/op
+# Warmup Iteration   2: 0,604 us/op
+# Warmup Iteration   3: 0,585 us/op
+# Warmup Iteration   4: 0,574 us/op
+# Warmup Iteration   5: 0,601 us/op
+# Warmup Iteration   6: 0,577 us/op
+# Warmup Iteration   7: 0,582 us/op
+# Warmup Iteration   8: 0,617 us/op
+# Warmup Iteration   9: 0,579 us/op
+# Warmup Iteration  10: 0,585 us/op
+# Warmup Iteration  11: 0,585 us/op
+# Warmup Iteration  12: 0,584 us/op
+# Warmup Iteration  13: 0,583 us/op
+# Warmup Iteration  14: 0,609 us/op
+# Warmup Iteration  15: 0,583 us/op
+# Warmup Iteration  16: 0,583 us/op
+# Warmup Iteration  17: 0,586 us/op
+# Warmup Iteration  18: 0,579 us/op
+# Warmup Iteration  19: 0,579 us/op
+# Warmup Iteration  20: 0,585 us/op
+Iteration   1: 0,576 us/op
+Iteration   2: 0,583 us/op
+Iteration   3: 0,578 us/op
+Iteration   4: 0,580 us/op
+Iteration   5: 0,576 us/op
+Iteration   6: 0,579 us/op
+Iteration   7: 0,574 us/op
+Iteration   8: 0,577 us/op
+Iteration   9: 0,573 us/op
+Iteration  10: 0,584 us/op
+Iteration  11: 0,579 us/op
+Iteration  12: 0,574 us/op
+Iteration  13: 0,576 us/op
+Iteration  14: 0,579 us/op
+Iteration  15: 0,577 us/op
+Iteration  16: 0,569 us/op
+Iteration  17: 0,567 us/op
+Iteration  18: 0,571 us/op
+Iteration  19: 0,577 us/op
+Iteration  20: 0,576 us/op
+
+# Run progress: 46,88% complete, ETA 00:22:56
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,640 us/op
+# Warmup Iteration   2: 0,601 us/op
+# Warmup Iteration   3: 0,571 us/op
+# Warmup Iteration   4: 0,570 us/op
+# Warmup Iteration   5: 0,570 us/op
+# Warmup Iteration   6: 0,577 us/op
+# Warmup Iteration   7: 0,588 us/op
+# Warmup Iteration   8: 0,575 us/op
+# Warmup Iteration   9: 1,082 us/op
+# Warmup Iteration  10: 0,576 us/op
+# Warmup Iteration  11: 0,619 us/op
+# Warmup Iteration  12: 0,592 us/op
+# Warmup Iteration  13: 0,574 us/op
+# Warmup Iteration  14: 0,570 us/op
+# Warmup Iteration  15: 0,578 us/op
+# Warmup Iteration  16: 0,572 us/op
+# Warmup Iteration  17: 0,576 us/op
+# Warmup Iteration  18: 0,583 us/op
+# Warmup Iteration  19: 0,577 us/op
+# Warmup Iteration  20: 0,585 us/op
+Iteration   1: 0,584 us/op
+Iteration   2: 0,581 us/op
+Iteration   3: 0,620 us/op
+Iteration   4: 0,616 us/op
+Iteration   5: 0,619 us/op
+Iteration   6: 0,633 us/op
+Iteration   7: 0,629 us/op
+Iteration   8: 0,624 us/op
+Iteration   9: 0,622 us/op
+Iteration  10: 0,623 us/op
+Iteration  11: 0,625 us/op
+Iteration  12: 0,628 us/op
+Iteration  13: 0,622 us/op
+Iteration  14: 0,617 us/op
+Iteration  15: 0,620 us/op
+Iteration  16: 0,621 us/op
+Iteration  17: 0,616 us/op
+Iteration  18: 0,614 us/op
+Iteration  19: 0,625 us/op
+Iteration  20: 0,623 us/op
+
+# Run progress: 48,44% complete, ETA 00:22:16
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,640 us/op
+# Warmup Iteration   2: 0,621 us/op
+# Warmup Iteration   3: 0,572 us/op
+# Warmup Iteration   4: 0,574 us/op
+# Warmup Iteration   5: 0,614 us/op
+# Warmup Iteration   6: 0,577 us/op
+# Warmup Iteration   7: 0,576 us/op
+# Warmup Iteration   8: 0,576 us/op
+# Warmup Iteration   9: 0,576 us/op
+# Warmup Iteration  10: 0,567 us/op
+# Warmup Iteration  11: 0,594 us/op
+# Warmup Iteration  12: 0,574 us/op
+# Warmup Iteration  13: 0,575 us/op
+# Warmup Iteration  14: 0,574 us/op
+# Warmup Iteration  15: 0,572 us/op
+# Warmup Iteration  16: 0,585 us/op
+# Warmup Iteration  17: 0,590 us/op
+# Warmup Iteration  18: 0,570 us/op
+# Warmup Iteration  19: 0,579 us/op
+# Warmup Iteration  20: 0,610 us/op
+Iteration   1: 0,573 us/op
+Iteration   2: 0,623 us/op
+Iteration   3: 0,579 us/op
+Iteration   4: 0,579 us/op
+Iteration   5: 0,573 us/op
+Iteration   6: 0,588 us/op
+Iteration   7: 0,580 us/op
+Iteration   8: 0,786 us/op
+Iteration   9: 0,746 us/op
+Iteration  10: 0,574 us/op
+Iteration  11: 0,622 us/op
+Iteration  12: 0,574 us/op
+Iteration  13: 0,575 us/op
+Iteration  14: 0,571 us/op
+Iteration  15: 0,570 us/op
+Iteration  16: 0,573 us/op
+Iteration  17: 0,580 us/op
+Iteration  18: 0,576 us/op
+Iteration  19: 0,577 us/op
+Iteration  20: 0,579 us/op
+
+
+Result "testLongConcatStringsWithStringBuilder":
+  0,600 ±(99.9%) 0,020 us/op [Average]
+  (min, avg, max) = (0,567, 0,600, 0,951), stdev = 0,052
+  CI (99.9%): [0,580, 0,620] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testThreeConcatStringsWithConcat
+
+# Run progress: 50,00% complete, ETA 00:21:35
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,057 us/op
+# Warmup Iteration   2: 0,050 us/op
+# Warmup Iteration   3: 0,046 us/op
+# Warmup Iteration   4: 0,046 us/op
+# Warmup Iteration   5: 0,046 us/op
+# Warmup Iteration   6: 0,047 us/op
+# Warmup Iteration   7: 0,047 us/op
+# Warmup Iteration   8: 0,046 us/op
+# Warmup Iteration   9: 0,046 us/op
+# Warmup Iteration  10: 0,047 us/op
+# Warmup Iteration  11: 0,047 us/op
+# Warmup Iteration  12: 0,047 us/op
+# Warmup Iteration  13: 0,047 us/op
+# Warmup Iteration  14: 0,046 us/op
+# Warmup Iteration  15: 0,046 us/op
+# Warmup Iteration  16: 0,047 us/op
+# Warmup Iteration  17: 0,047 us/op
+# Warmup Iteration  18: 0,047 us/op
+# Warmup Iteration  19: 0,048 us/op
+# Warmup Iteration  20: 0,047 us/op
+Iteration   1: 0,046 us/op
+Iteration   2: 0,045 us/op
+Iteration   3: 0,046 us/op
+Iteration   4: 0,047 us/op
+Iteration   5: 0,046 us/op
+Iteration   6: 0,047 us/op
+Iteration   7: 0,047 us/op
+Iteration   8: 0,047 us/op
+Iteration   9: 0,047 us/op
+Iteration  10: 0,047 us/op
+Iteration  11: 0,048 us/op
+Iteration  12: 0,047 us/op
+Iteration  13: 0,047 us/op
+Iteration  14: 0,046 us/op
+Iteration  15: 0,048 us/op
+Iteration  16: 0,048 us/op
+Iteration  17: 0,047 us/op
+Iteration  18: 0,047 us/op
+Iteration  19: 0,048 us/op
+Iteration  20: 0,046 us/op
+
+# Run progress: 51,56% complete, ETA 00:20:55
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,057 us/op
+# Warmup Iteration   2: 0,048 us/op
+# Warmup Iteration   3: 0,046 us/op
+# Warmup Iteration   4: 0,046 us/op
+# Warmup Iteration   5: 0,047 us/op
+# Warmup Iteration   6: 0,047 us/op
+# Warmup Iteration   7: 0,064 us/op
+# Warmup Iteration   8: 0,064 us/op
+# Warmup Iteration   9: 0,047 us/op
+# Warmup Iteration  10: 0,046 us/op
+# Warmup Iteration  11: 0,049 us/op
+# Warmup Iteration  12: 0,046 us/op
+# Warmup Iteration  13: 0,047 us/op
+# Warmup Iteration  14: 0,046 us/op
+# Warmup Iteration  15: 0,047 us/op
+# Warmup Iteration  16: 0,047 us/op
+# Warmup Iteration  17: 0,047 us/op
+# Warmup Iteration  18: 0,047 us/op
+# Warmup Iteration  19: 0,047 us/op
+# Warmup Iteration  20: 0,047 us/op
+Iteration   1: 0,046 us/op
+Iteration   2: 0,048 us/op
+Iteration   3: 0,047 us/op
+Iteration   4: 0,046 us/op
+Iteration   5: 0,047 us/op
+Iteration   6: 0,048 us/op
+Iteration   7: 0,046 us/op
+Iteration   8: 0,046 us/op
+Iteration   9: 0,047 us/op
+Iteration  10: 0,047 us/op
+Iteration  11: 0,046 us/op
+Iteration  12: 0,047 us/op
+Iteration  13: 0,047 us/op
+Iteration  14: 0,047 us/op
+Iteration  15: 0,046 us/op
+Iteration  16: 0,046 us/op
+Iteration  17: 0,046 us/op
+Iteration  18: 0,047 us/op
+Iteration  19: 0,047 us/op
+Iteration  20: 0,047 us/op
+
+# Run progress: 53,13% complete, ETA 00:20:14
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,057 us/op
+# Warmup Iteration   2: 0,047 us/op
+# Warmup Iteration   3: 0,046 us/op
+# Warmup Iteration   4: 0,046 us/op
+# Warmup Iteration   5: 0,047 us/op
+# Warmup Iteration   6: 0,047 us/op
+# Warmup Iteration   7: 0,047 us/op
+# Warmup Iteration   8: 0,046 us/op
+# Warmup Iteration   9: 0,046 us/op
+# Warmup Iteration  10: 0,047 us/op
+# Warmup Iteration  11: 0,047 us/op
+# Warmup Iteration  12: 0,046 us/op
+# Warmup Iteration  13: 0,046 us/op
+# Warmup Iteration  14: 0,047 us/op
+# Warmup Iteration  15: 0,047 us/op
+# Warmup Iteration  16: 0,046 us/op
+# Warmup Iteration  17: 0,047 us/op
+# Warmup Iteration  18: 0,046 us/op
+# Warmup Iteration  19: 0,047 us/op
+# Warmup Iteration  20: 0,046 us/op
+Iteration   1: 0,046 us/op
+Iteration   2: 0,046 us/op
+Iteration   3: 0,046 us/op
+Iteration   4: 0,047 us/op
+Iteration   5: 0,047 us/op
+Iteration   6: 0,046 us/op
+Iteration   7: 0,086 us/op
+Iteration   8: 0,049 us/op
+Iteration   9: 0,047 us/op
+Iteration  10: 0,047 us/op
+Iteration  11: 0,048 us/op
+Iteration  12: 0,048 us/op
+Iteration  13: 0,047 us/op
+Iteration  14: 0,047 us/op
+Iteration  15: 0,046 us/op
+Iteration  16: 0,047 us/op
+Iteration  17: 0,047 us/op
+Iteration  18: 0,046 us/op
+Iteration  19: 0,047 us/op
+Iteration  20: 0,047 us/op
+
+# Run progress: 54,69% complete, ETA 00:19:34
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,059 us/op
+# Warmup Iteration   2: 0,049 us/op
+# Warmup Iteration   3: 0,046 us/op
+# Warmup Iteration   4: 0,047 us/op
+# Warmup Iteration   5: 0,047 us/op
+# Warmup Iteration   6: 0,047 us/op
+# Warmup Iteration   7: 0,047 us/op
+# Warmup Iteration   8: 0,047 us/op
+# Warmup Iteration   9: 0,047 us/op
+# Warmup Iteration  10: 0,047 us/op
+# Warmup Iteration  11: 0,047 us/op
+# Warmup Iteration  12: 0,047 us/op
+# Warmup Iteration  13: 0,046 us/op
+# Warmup Iteration  14: 0,047 us/op
+# Warmup Iteration  15: 0,047 us/op
+# Warmup Iteration  16: 0,046 us/op
+# Warmup Iteration  17: 0,047 us/op
+# Warmup Iteration  18: 0,047 us/op
+# Warmup Iteration  19: 0,046 us/op
+# Warmup Iteration  20: 0,047 us/op
+Iteration   1: 0,047 us/op
+Iteration   2: 0,047 us/op
+Iteration   3: 0,047 us/op
+Iteration   4: 0,047 us/op
+Iteration   5: 0,047 us/op
+Iteration   6: 0,047 us/op
+Iteration   7: 0,047 us/op
+Iteration   8: 0,047 us/op
+Iteration   9: 0,047 us/op
+Iteration  10: 0,047 us/op
+Iteration  11: 0,047 us/op
+Iteration  12: 0,046 us/op
+Iteration  13: 0,047 us/op
+Iteration  14: 0,047 us/op
+Iteration  15: 0,047 us/op
+Iteration  16: 0,046 us/op
+Iteration  17: 0,047 us/op
+Iteration  18: 0,046 us/op
+Iteration  19: 0,047 us/op
+Iteration  20: 0,047 us/op
+
+
+Result "testThreeConcatStringsWithConcat":
+  0,047 ±(99.9%) 0,002 us/op [Average]
+  (min, avg, max) = (0,045, 0,047, 0,086), stdev = 0,004
+  CI (99.9%): [0,046, 0,049] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testThreeConcatStringsWithPlus
+
+# Run progress: 56,25% complete, ETA 00:18:53
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,044 us/op
+# Warmup Iteration   2: 0,034 us/op
+# Warmup Iteration   3: 0,033 us/op
+# Warmup Iteration   4: 0,034 us/op
+# Warmup Iteration   5: 0,034 us/op
+# Warmup Iteration   6: 0,061 us/op
+# Warmup Iteration   7: 0,035 us/op
+# Warmup Iteration   8: 0,034 us/op
+# Warmup Iteration   9: 0,034 us/op
+# Warmup Iteration  10: 0,034 us/op
+# Warmup Iteration  11: 0,036 us/op
+# Warmup Iteration  12: 0,034 us/op
+# Warmup Iteration  13: 0,034 us/op
+# Warmup Iteration  14: 0,033 us/op
+# Warmup Iteration  15: 0,035 us/op
+# Warmup Iteration  16: 0,033 us/op
+# Warmup Iteration  17: 0,034 us/op
+# Warmup Iteration  18: 0,034 us/op
+# Warmup Iteration  19: 0,034 us/op
+# Warmup Iteration  20: 0,034 us/op
+Iteration   1: 0,035 us/op
+Iteration   2: 0,034 us/op
+Iteration   3: 0,034 us/op
+Iteration   4: 0,034 us/op
+Iteration   5: 0,034 us/op
+Iteration   6: 0,034 us/op
+Iteration   7: 0,034 us/op
+Iteration   8: 0,033 us/op
+Iteration   9: 0,033 us/op
+Iteration  10: 0,034 us/op
+Iteration  11: 0,034 us/op
+Iteration  12: 0,034 us/op
+Iteration  13: 0,033 us/op
+Iteration  14: 0,033 us/op
+Iteration  15: 0,033 us/op
+Iteration  16: 0,034 us/op
+Iteration  17: 0,034 us/op
+Iteration  18: 0,034 us/op
+Iteration  19: 0,033 us/op
+Iteration  20: 0,033 us/op
+
+# Run progress: 57,81% complete, ETA 00:18:13
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,045 us/op
+# Warmup Iteration   2: 0,034 us/op
+# Warmup Iteration   3: 0,034 us/op
+# Warmup Iteration   4: 0,034 us/op
+# Warmup Iteration   5: 0,034 us/op
+# Warmup Iteration   6: 0,033 us/op
+# Warmup Iteration   7: 0,033 us/op
+# Warmup Iteration   8: 0,034 us/op
+# Warmup Iteration   9: 0,033 us/op
+# Warmup Iteration  10: 0,033 us/op
+# Warmup Iteration  11: 0,034 us/op
+# Warmup Iteration  12: 0,034 us/op
+# Warmup Iteration  13: 0,034 us/op
+# Warmup Iteration  14: 0,034 us/op
+# Warmup Iteration  15: 0,034 us/op
+# Warmup Iteration  16: 0,034 us/op
+# Warmup Iteration  17: 0,034 us/op
+# Warmup Iteration  18: 0,034 us/op
+# Warmup Iteration  19: 0,034 us/op
+# Warmup Iteration  20: 0,034 us/op
+Iteration   1: 0,034 us/op
+Iteration   2: 0,035 us/op
+Iteration   3: 0,033 us/op
+Iteration   4: 0,033 us/op
+Iteration   5: 0,045 us/op
+Iteration   6: 0,048 us/op
+Iteration   7: 0,033 us/op
+Iteration   8: 0,034 us/op
+Iteration   9: 0,034 us/op
+Iteration  10: 0,033 us/op
+Iteration  11: 0,035 us/op
+Iteration  12: 0,034 us/op
+Iteration  13: 0,034 us/op
+Iteration  14: 0,034 us/op
+Iteration  15: 0,034 us/op
+Iteration  16: 0,034 us/op
+Iteration  17: 0,034 us/op
+Iteration  18: 0,034 us/op
+Iteration  19: 0,034 us/op
+Iteration  20: 0,034 us/op
+
+# Run progress: 59,38% complete, ETA 00:17:32
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,044 us/op
+# Warmup Iteration   2: 0,033 us/op
+# Warmup Iteration   3: 0,034 us/op
+# Warmup Iteration   4: 0,033 us/op
+# Warmup Iteration   5: 0,034 us/op
+# Warmup Iteration   6: 0,034 us/op
+# Warmup Iteration   7: 0,034 us/op
+# Warmup Iteration   8: 0,037 us/op
+# Warmup Iteration   9: 0,043 us/op
+# Warmup Iteration  10: 0,042 us/op
+# Warmup Iteration  11: 0,037 us/op
+# Warmup Iteration  12: 0,034 us/op
+# Warmup Iteration  13: 0,034 us/op
+# Warmup Iteration  14: 0,035 us/op
+# Warmup Iteration  15: 0,034 us/op
+# Warmup Iteration  16: 0,035 us/op
+# Warmup Iteration  17: 0,034 us/op
+# Warmup Iteration  18: 0,034 us/op
+# Warmup Iteration  19: 0,034 us/op
+# Warmup Iteration  20: 0,034 us/op
+Iteration   1: 0,034 us/op
+Iteration   2: 0,035 us/op
+Iteration   3: 0,037 us/op
+Iteration   4: 0,036 us/op
+Iteration   5: 0,036 us/op
+Iteration   6: 0,036 us/op
+Iteration   7: 0,036 us/op
+Iteration   8: 0,036 us/op
+Iteration   9: 0,036 us/op
+Iteration  10: 0,036 us/op
+Iteration  11: 0,036 us/op
+Iteration  12: 0,036 us/op
+Iteration  13: 0,036 us/op
+Iteration  14: 0,036 us/op
+Iteration  15: 0,036 us/op
+Iteration  16: 0,036 us/op
+Iteration  17: 0,036 us/op
+Iteration  18: 0,036 us/op
+Iteration  19: 0,034 us/op
+Iteration  20: 0,034 us/op
+
+# Run progress: 60,94% complete, ETA 00:16:52
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,044 us/op
+# Warmup Iteration   2: 0,034 us/op
+# Warmup Iteration   3: 0,034 us/op
+# Warmup Iteration   4: 0,041 us/op
+# Warmup Iteration   5: 0,050 us/op
+# Warmup Iteration   6: 0,034 us/op
+# Warmup Iteration   7: 0,034 us/op
+# Warmup Iteration   8: 0,034 us/op
+# Warmup Iteration   9: 0,034 us/op
+# Warmup Iteration  10: 0,034 us/op
+# Warmup Iteration  11: 0,036 us/op
+# Warmup Iteration  12: 0,034 us/op
+# Warmup Iteration  13: 0,034 us/op
+# Warmup Iteration  14: 0,035 us/op
+# Warmup Iteration  15: 0,034 us/op
+# Warmup Iteration  16: 0,033 us/op
+# Warmup Iteration  17: 0,034 us/op
+# Warmup Iteration  18: 0,034 us/op
+# Warmup Iteration  19: 0,034 us/op
+# Warmup Iteration  20: 0,035 us/op
+Iteration   1: 0,034 us/op
+Iteration   2: 0,034 us/op
+Iteration   3: 0,033 us/op
+Iteration   4: 0,034 us/op
+Iteration   5: 0,034 us/op
+Iteration   6: 0,034 us/op
+Iteration   7: 0,034 us/op
+Iteration   8: 0,034 us/op
+Iteration   9: 0,034 us/op
+Iteration  10: 0,034 us/op
+Iteration  11: 0,034 us/op
+Iteration  12: 0,034 us/op
+Iteration  13: 0,034 us/op
+Iteration  14: 0,034 us/op
+Iteration  15: 0,034 us/op
+Iteration  16: 0,035 us/op
+Iteration  17: 0,034 us/op
+Iteration  18: 0,033 us/op
+Iteration  19: 0,033 us/op
+Iteration  20: 0,034 us/op
+
+
+Result "testThreeConcatStringsWithPlus":
+  0,035 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,033, 0,035, 0,048), stdev = 0,002
+  CI (99.9%): [0,034, 0,035] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testThreeConcatStringsWithStringBuffer
+
+# Run progress: 62,50% complete, ETA 00:16:11
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,040 us/op
+# Warmup Iteration   2: 0,037 us/op
+# Warmup Iteration   3: 0,033 us/op
+# Warmup Iteration   4: 0,033 us/op
+# Warmup Iteration   5: 0,033 us/op
+# Warmup Iteration   6: 0,034 us/op
+# Warmup Iteration   7: 0,034 us/op
+# Warmup Iteration   8: 0,033 us/op
+# Warmup Iteration   9: 0,034 us/op
+# Warmup Iteration  10: 0,033 us/op
+# Warmup Iteration  11: 0,033 us/op
+# Warmup Iteration  12: 0,033 us/op
+# Warmup Iteration  13: 0,033 us/op
+# Warmup Iteration  14: 0,033 us/op
+# Warmup Iteration  15: 0,033 us/op
+# Warmup Iteration  16: 0,034 us/op
+# Warmup Iteration  17: 0,034 us/op
+# Warmup Iteration  18: 0,034 us/op
+# Warmup Iteration  19: 0,034 us/op
+# Warmup Iteration  20: 0,033 us/op
+Iteration   1: 0,034 us/op
+Iteration   2: 0,033 us/op
+Iteration   3: 0,033 us/op
+Iteration   4: 0,067 us/op
+Iteration   5: 0,033 us/op
+Iteration   6: 0,033 us/op
+Iteration   7: 0,033 us/op
+Iteration   8: 0,033 us/op
+Iteration   9: 0,033 us/op
+Iteration  10: 0,033 us/op
+Iteration  11: 0,035 us/op
+Iteration  12: 0,034 us/op
+Iteration  13: 0,034 us/op
+Iteration  14: 0,033 us/op
+Iteration  15: 0,033 us/op
+Iteration  16: 0,033 us/op
+Iteration  17: 0,034 us/op
+Iteration  18: 0,034 us/op
+Iteration  19: 0,034 us/op
+Iteration  20: 0,035 us/op
+
+# Run progress: 64,06% complete, ETA 00:15:31
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,041 us/op
+# Warmup Iteration   2: 0,037 us/op
+# Warmup Iteration   3: 0,033 us/op
+# Warmup Iteration   4: 0,033 us/op
+# Warmup Iteration   5: 0,033 us/op
+# Warmup Iteration   6: 0,034 us/op
+# Warmup Iteration   7: 0,034 us/op
+# Warmup Iteration   8: 0,034 us/op
+# Warmup Iteration   9: 0,033 us/op
+# Warmup Iteration  10: 0,034 us/op
+# Warmup Iteration  11: 0,033 us/op
+# Warmup Iteration  12: 0,033 us/op
+# Warmup Iteration  13: 0,033 us/op
+# Warmup Iteration  14: 0,033 us/op
+# Warmup Iteration  15: 0,034 us/op
+# Warmup Iteration  16: 0,034 us/op
+# Warmup Iteration  17: 0,033 us/op
+# Warmup Iteration  18: 0,033 us/op
+# Warmup Iteration  19: 0,033 us/op
+# Warmup Iteration  20: 0,033 us/op
+Iteration   1: 0,034 us/op
+Iteration   2: 0,033 us/op
+Iteration   3: 0,033 us/op
+Iteration   4: 0,034 us/op
+Iteration   5: 0,034 us/op
+Iteration   6: 0,034 us/op
+Iteration   7: 0,033 us/op
+Iteration   8: 0,034 us/op
+Iteration   9: 0,034 us/op
+Iteration  10: 0,034 us/op
+Iteration  11: 0,033 us/op
+Iteration  12: 0,033 us/op
+Iteration  13: 0,033 us/op
+Iteration  14: 0,033 us/op
+Iteration  15: 0,034 us/op
+Iteration  16: 0,033 us/op
+Iteration  17: 0,033 us/op
+Iteration  18: 0,034 us/op
+Iteration  19: 0,033 us/op
+Iteration  20: 0,033 us/op
+
+# Run progress: 65,63% complete, ETA 00:14:50
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,040 us/op
+# Warmup Iteration   2: 0,037 us/op
+# Warmup Iteration   3: 0,054 us/op
+# Warmup Iteration   4: 0,037 us/op
+# Warmup Iteration   5: 0,033 us/op
+# Warmup Iteration   6: 0,033 us/op
+# Warmup Iteration   7: 0,033 us/op
+# Warmup Iteration   8: 0,034 us/op
+# Warmup Iteration   9: 0,033 us/op
+# Warmup Iteration  10: 0,034 us/op
+# Warmup Iteration  11: 0,035 us/op
+# Warmup Iteration  12: 0,035 us/op
+# Warmup Iteration  13: 0,034 us/op
+# Warmup Iteration  14: 0,033 us/op
+# Warmup Iteration  15: 0,033 us/op
+# Warmup Iteration  16: 0,033 us/op
+# Warmup Iteration  17: 0,033 us/op
+# Warmup Iteration  18: 0,034 us/op
+# Warmup Iteration  19: 0,035 us/op
+# Warmup Iteration  20: 0,033 us/op
+Iteration   1: 0,034 us/op
+Iteration   2: 0,033 us/op
+Iteration   3: 0,033 us/op
+Iteration   4: 0,033 us/op
+Iteration   5: 0,033 us/op
+Iteration   6: 0,033 us/op
+Iteration   7: 0,033 us/op
+Iteration   8: 0,033 us/op
+Iteration   9: 0,034 us/op
+Iteration  10: 0,033 us/op
+Iteration  11: 0,033 us/op
+Iteration  12: 0,033 us/op
+Iteration  13: 0,033 us/op
+Iteration  14: 0,033 us/op
+Iteration  15: 0,033 us/op
+Iteration  16: 0,033 us/op
+Iteration  17: 0,033 us/op
+Iteration  18: 0,033 us/op
+Iteration  19: 0,033 us/op
+Iteration  20: 0,033 us/op
+
+# Run progress: 67,19% complete, ETA 00:14:10
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,040 us/op
+# Warmup Iteration   2: 0,037 us/op
+# Warmup Iteration   3: 0,033 us/op
+# Warmup Iteration   4: 0,033 us/op
+# Warmup Iteration   5: 0,033 us/op
+# Warmup Iteration   6: 0,033 us/op
+# Warmup Iteration   7: 0,034 us/op
+# Warmup Iteration   8: 0,034 us/op
+# Warmup Iteration   9: 0,034 us/op
+# Warmup Iteration  10: 0,034 us/op
+# Warmup Iteration  11: 0,034 us/op
+# Warmup Iteration  12: 0,033 us/op
+# Warmup Iteration  13: 0,033 us/op
+# Warmup Iteration  14: 0,034 us/op
+# Warmup Iteration  15: 0,033 us/op
+# Warmup Iteration  16: 0,034 us/op
+# Warmup Iteration  17: 0,034 us/op
+# Warmup Iteration  18: 0,033 us/op
+# Warmup Iteration  19: 0,034 us/op
+# Warmup Iteration  20: 0,034 us/op
+Iteration   1: 0,033 us/op
+Iteration   2: 0,041 us/op
+Iteration   3: 0,051 us/op
+Iteration   4: 0,033 us/op
+Iteration   5: 0,033 us/op
+Iteration   6: 0,033 us/op
+Iteration   7: 0,033 us/op
+Iteration   8: 0,034 us/op
+Iteration   9: 0,034 us/op
+Iteration  10: 0,034 us/op
+Iteration  11: 0,034 us/op
+Iteration  12: 0,035 us/op
+Iteration  13: 0,033 us/op
+Iteration  14: 0,033 us/op
+Iteration  15: 0,033 us/op
+Iteration  16: 0,033 us/op
+Iteration  17: 0,033 us/op
+Iteration  18: 0,033 us/op
+Iteration  19: 0,034 us/op
+Iteration  20: 0,034 us/op
+
+
+Result "testThreeConcatStringsWithStringBuffer":
+  0,034 ±(99.9%) 0,002 us/op [Average]
+  (min, avg, max) = (0,033, 0,034, 0,067), stdev = 0,004
+  CI (99.9%): [0,033, 0,036] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testThreeConcatStringsWithStringBuilder
+
+# Run progress: 68,75% complete, ETA 00:13:29
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,040 us/op
+# Warmup Iteration   2: 0,036 us/op
+# Warmup Iteration   3: 0,036 us/op
+# Warmup Iteration   4: 0,035 us/op
+# Warmup Iteration   5: 0,035 us/op
+# Warmup Iteration   6: 0,035 us/op
+# Warmup Iteration   7: 0,035 us/op
+# Warmup Iteration   8: 0,035 us/op
+# Warmup Iteration   9: 0,035 us/op
+# Warmup Iteration  10: 0,035 us/op
+# Warmup Iteration  11: 0,035 us/op
+# Warmup Iteration  12: 0,035 us/op
+# Warmup Iteration  13: 0,034 us/op
+# Warmup Iteration  14: 0,035 us/op
+# Warmup Iteration  15: 0,035 us/op
+# Warmup Iteration  16: 0,034 us/op
+# Warmup Iteration  17: 0,035 us/op
+# Warmup Iteration  18: 0,035 us/op
+# Warmup Iteration  19: 0,035 us/op
+# Warmup Iteration  20: 0,035 us/op
+Iteration   1: 0,035 us/op
+Iteration   2: 0,035 us/op
+Iteration   3: 0,034 us/op
+Iteration   4: 0,035 us/op
+Iteration   5: 0,035 us/op
+Iteration   6: 0,035 us/op
+Iteration   7: 0,035 us/op
+Iteration   8: 0,035 us/op
+Iteration   9: 0,035 us/op
+Iteration  10: 0,035 us/op
+Iteration  11: 0,035 us/op
+Iteration  12: 0,035 us/op
+Iteration  13: 0,035 us/op
+Iteration  14: 0,034 us/op
+Iteration  15: 0,035 us/op
+Iteration  16: 0,034 us/op
+Iteration  17: 0,035 us/op
+Iteration  18: 0,035 us/op
+Iteration  19: 0,035 us/op
+Iteration  20: 0,035 us/op
+
+# Run progress: 70,31% complete, ETA 00:12:49
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,051 us/op
+# Warmup Iteration   2: 0,062 us/op
+# Warmup Iteration   3: 0,034 us/op
+# Warmup Iteration   4: 0,038 us/op
+# Warmup Iteration   5: 0,046 us/op
+# Warmup Iteration   6: 0,037 us/op
+# Warmup Iteration   7: 0,035 us/op
+# Warmup Iteration   8: 0,035 us/op
+# Warmup Iteration   9: 0,035 us/op
+# Warmup Iteration  10: 0,035 us/op
+# Warmup Iteration  11: 0,036 us/op
+# Warmup Iteration  12: 0,037 us/op
+# Warmup Iteration  13: 0,034 us/op
+# Warmup Iteration  14: 0,035 us/op
+# Warmup Iteration  15: 0,034 us/op
+# Warmup Iteration  16: 0,034 us/op
+# Warmup Iteration  17: 0,035 us/op
+# Warmup Iteration  18: 0,035 us/op
+# Warmup Iteration  19: 0,034 us/op
+# Warmup Iteration  20: 0,035 us/op
+Iteration   1: 0,034 us/op
+Iteration   2: 0,034 us/op
+Iteration   3: 0,035 us/op
+Iteration   4: 0,034 us/op
+Iteration   5: 0,035 us/op
+Iteration   6: 0,035 us/op
+Iteration   7: 0,035 us/op
+Iteration   8: 0,036 us/op
+Iteration   9: 0,034 us/op
+Iteration  10: 0,035 us/op
+Iteration  11: 0,034 us/op
+Iteration  12: 0,035 us/op
+Iteration  13: 0,034 us/op
+Iteration  14: 0,036 us/op
+Iteration  15: 0,034 us/op
+Iteration  16: 0,034 us/op
+Iteration  17: 0,035 us/op
+Iteration  18: 0,034 us/op
+Iteration  19: 0,035 us/op
+Iteration  20: 0,035 us/op
+
+# Run progress: 71,88% complete, ETA 00:12:08
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,041 us/op
+# Warmup Iteration   2: 0,036 us/op
+# Warmup Iteration   3: 0,034 us/op
+# Warmup Iteration   4: 0,034 us/op
+# Warmup Iteration   5: 0,035 us/op
+# Warmup Iteration   6: 0,035 us/op
+# Warmup Iteration   7: 0,035 us/op
+# Warmup Iteration   8: 0,034 us/op
+# Warmup Iteration   9: 0,036 us/op
+# Warmup Iteration  10: 0,035 us/op
+# Warmup Iteration  11: 0,035 us/op
+# Warmup Iteration  12: 0,034 us/op
+# Warmup Iteration  13: 0,034 us/op
+# Warmup Iteration  14: 0,036 us/op
+# Warmup Iteration  15: 0,038 us/op
+# Warmup Iteration  16: 0,037 us/op
+# Warmup Iteration  17: 0,040 us/op
+# Warmup Iteration  18: 0,035 us/op
+# Warmup Iteration  19: 0,036 us/op
+# Warmup Iteration  20: 0,035 us/op
+Iteration   1: 0,049 us/op
+Iteration   2: 0,082 us/op
+Iteration   3: 0,048 us/op
+Iteration   4: 0,037 us/op
+Iteration   5: 0,040 us/op
+Iteration   6: 0,038 us/op
+Iteration   7: 0,035 us/op
+Iteration   8: 0,035 us/op
+Iteration   9: 0,036 us/op
+Iteration  10: 0,044 us/op
+Iteration  11: 0,054 us/op
+Iteration  12: 0,040 us/op
+Iteration  13: 0,035 us/op
+Iteration  14: 0,034 us/op
+Iteration  15: 0,035 us/op
+Iteration  16: 0,035 us/op
+Iteration  17: 0,035 us/op
+Iteration  18: 0,036 us/op
+Iteration  19: 0,035 us/op
+Iteration  20: 0,036 us/op
+
+# Run progress: 73,44% complete, ETA 00:11:28
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,040 us/op
+# Warmup Iteration   2: 0,046 us/op
+# Warmup Iteration   3: 0,045 us/op
+# Warmup Iteration   4: 0,038 us/op
+# Warmup Iteration   5: 0,044 us/op
+# Warmup Iteration   6: 0,048 us/op
+# Warmup Iteration   7: 0,048 us/op
+# Warmup Iteration   8: 0,062 us/op
+# Warmup Iteration   9: 0,040 us/op
+# Warmup Iteration  10: 0,043 us/op
+# Warmup Iteration  11: 0,038 us/op
+# Warmup Iteration  12: 0,039 us/op
+# Warmup Iteration  13: 0,035 us/op
+# Warmup Iteration  14: 0,039 us/op
+# Warmup Iteration  15: 0,036 us/op
+# Warmup Iteration  16: 0,036 us/op
+# Warmup Iteration  17: 0,035 us/op
+# Warmup Iteration  18: 0,036 us/op
+# Warmup Iteration  19: 0,041 us/op
+# Warmup Iteration  20: 0,037 us/op
+Iteration   1: 0,054 us/op
+Iteration   2: 0,049 us/op
+Iteration   3: 0,044 us/op
+Iteration   4: 0,044 us/op
+Iteration   5: 0,045 us/op
+Iteration   6: 0,045 us/op
+Iteration   7: 0,046 us/op
+Iteration   8: 0,044 us/op
+Iteration   9: 0,045 us/op
+Iteration  10: 0,044 us/op
+Iteration  11: 0,045 us/op
+Iteration  12: 0,049 us/op
+Iteration  13: 0,052 us/op
+Iteration  14: 0,045 us/op
+Iteration  15: 0,047 us/op
+Iteration  16: 0,044 us/op
+Iteration  17: 0,036 us/op
+Iteration  18: 0,038 us/op
+Iteration  19: 0,034 us/op
+Iteration  20: 0,036 us/op
+
+
+Result "testThreeConcatStringsWithStringBuilder":
+  0,039 ±(99.9%) 0,003 us/op [Average]
+  (min, avg, max) = (0,034, 0,039, 0,082), stdev = 0,007
+  CI (99.9%): [0,036, 0,041] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testTwoConcatStringsWithConcat
+
+# Run progress: 75,00% complete, ETA 00:10:47
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,040 us/op
+# Warmup Iteration   2: 0,035 us/op
+# Warmup Iteration   3: 0,030 us/op
+# Warmup Iteration   4: 0,030 us/op
+# Warmup Iteration   5: 0,030 us/op
+# Warmup Iteration   6: 0,030 us/op
+# Warmup Iteration   7: 0,030 us/op
+# Warmup Iteration   8: 0,030 us/op
+# Warmup Iteration   9: 0,047 us/op
+# Warmup Iteration  10: 0,040 us/op
+# Warmup Iteration  11: 0,029 us/op
+# Warmup Iteration  12: 0,031 us/op
+# Warmup Iteration  13: 0,030 us/op
+# Warmup Iteration  14: 0,029 us/op
+# Warmup Iteration  15: 0,030 us/op
+# Warmup Iteration  16: 0,030 us/op
+# Warmup Iteration  17: 0,033 us/op
+# Warmup Iteration  18: 0,031 us/op
+# Warmup Iteration  19: 0,030 us/op
+# Warmup Iteration  20: 0,030 us/op
+Iteration   1: 0,030 us/op
+Iteration   2: 0,029 us/op
+Iteration   3: 0,030 us/op
+Iteration   4: 0,030 us/op
+Iteration   5: 0,030 us/op
+Iteration   6: 0,038 us/op
+Iteration   7: 0,036 us/op
+Iteration   8: 0,032 us/op
+Iteration   9: 0,032 us/op
+Iteration  10: 0,033 us/op
+Iteration  11: 0,031 us/op
+Iteration  12: 0,030 us/op
+Iteration  13: 0,030 us/op
+Iteration  14: 0,034 us/op
+Iteration  15: 0,031 us/op
+Iteration  16: 0,030 us/op
+Iteration  17: 0,030 us/op
+Iteration  18: 0,030 us/op
+Iteration  19: 0,030 us/op
+Iteration  20: 0,030 us/op
+
+# Run progress: 76,56% complete, ETA 00:10:07
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,038 us/op
+# Warmup Iteration   2: 0,033 us/op
+# Warmup Iteration   3: 0,030 us/op
+# Warmup Iteration   4: 0,030 us/op
+# Warmup Iteration   5: 0,030 us/op
+# Warmup Iteration   6: 0,030 us/op
+# Warmup Iteration   7: 0,030 us/op
+# Warmup Iteration   8: 0,030 us/op
+# Warmup Iteration   9: 0,032 us/op
+# Warmup Iteration  10: 0,030 us/op
+# Warmup Iteration  11: 0,030 us/op
+# Warmup Iteration  12: 0,035 us/op
+# Warmup Iteration  13: 0,031 us/op
+# Warmup Iteration  14: 0,032 us/op
+# Warmup Iteration  15: 0,030 us/op
+# Warmup Iteration  16: 0,030 us/op
+# Warmup Iteration  17: 0,030 us/op
+# Warmup Iteration  18: 0,030 us/op
+# Warmup Iteration  19: 0,030 us/op
+# Warmup Iteration  20: 0,031 us/op
+Iteration   1: 0,030 us/op
+Iteration   2: 0,031 us/op
+Iteration   3: 0,030 us/op
+Iteration   4: 0,032 us/op
+Iteration   5: 0,031 us/op
+Iteration   6: 0,030 us/op
+Iteration   7: 0,030 us/op
+Iteration   8: 0,030 us/op
+Iteration   9: 0,030 us/op
+Iteration  10: 0,030 us/op
+Iteration  11: 0,041 us/op
+Iteration  12: 0,041 us/op
+Iteration  13: 0,037 us/op
+Iteration  14: 0,029 us/op
+Iteration  15: 0,030 us/op
+Iteration  16: 0,030 us/op
+Iteration  17: 0,031 us/op
+Iteration  18: 0,031 us/op
+Iteration  19: 0,030 us/op
+Iteration  20: 0,031 us/op
+
+# Run progress: 78,13% complete, ETA 00:09:26
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,039 us/op
+# Warmup Iteration   2: 0,034 us/op
+# Warmup Iteration   3: 0,031 us/op
+# Warmup Iteration   4: 0,030 us/op
+# Warmup Iteration   5: 0,031 us/op
+# Warmup Iteration   6: 0,031 us/op
+# Warmup Iteration   7: 0,029 us/op
+# Warmup Iteration   8: 0,030 us/op
+# Warmup Iteration   9: 0,031 us/op
+# Warmup Iteration  10: 0,031 us/op
+# Warmup Iteration  11: 0,030 us/op
+# Warmup Iteration  12: 0,030 us/op
+# Warmup Iteration  13: 0,030 us/op
+# Warmup Iteration  14: 0,030 us/op
+# Warmup Iteration  15: 0,030 us/op
+# Warmup Iteration  16: 0,030 us/op
+# Warmup Iteration  17: 0,030 us/op
+# Warmup Iteration  18: 0,029 us/op
+# Warmup Iteration  19: 0,029 us/op
+# Warmup Iteration  20: 0,031 us/op
+Iteration   1: 0,030 us/op
+Iteration   2: 0,029 us/op
+Iteration   3: 0,030 us/op
+Iteration   4: 0,030 us/op
+Iteration   5: 0,030 us/op
+Iteration   6: 0,030 us/op
+Iteration   7: 0,032 us/op
+Iteration   8: 0,030 us/op
+Iteration   9: 0,030 us/op
+Iteration  10: 0,030 us/op
+Iteration  11: 0,030 us/op
+Iteration  12: 0,030 us/op
+Iteration  13: 0,030 us/op
+Iteration  14: 0,030 us/op
+Iteration  15: 0,029 us/op
+Iteration  16: 0,029 us/op
+Iteration  17: 0,029 us/op
+Iteration  18: 0,031 us/op
+Iteration  19: 0,030 us/op
+Iteration  20: 0,030 us/op
+
+# Run progress: 79,69% complete, ETA 00:08:46
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,038 us/op
+# Warmup Iteration   2: 0,033 us/op
+# Warmup Iteration   3: 0,030 us/op
+# Warmup Iteration   4: 0,030 us/op
+# Warmup Iteration   5: 0,035 us/op
+# Warmup Iteration   6: 0,030 us/op
+# Warmup Iteration   7: 0,030 us/op
+# Warmup Iteration   8: 0,030 us/op
+# Warmup Iteration   9: 0,030 us/op
+# Warmup Iteration  10: 0,040 us/op
+# Warmup Iteration  11: 0,040 us/op
+# Warmup Iteration  12: 0,031 us/op
+# Warmup Iteration  13: 0,030 us/op
+# Warmup Iteration  14: 0,030 us/op
+# Warmup Iteration  15: 0,033 us/op
+# Warmup Iteration  16: 0,031 us/op
+# Warmup Iteration  17: 0,032 us/op
+# Warmup Iteration  18: 0,028 us/op
+# Warmup Iteration  19: 0,028 us/op
+# Warmup Iteration  20: 0,028 us/op
+Iteration   1: 0,028 us/op
+Iteration   2: 0,028 us/op
+Iteration   3: 0,028 us/op
+Iteration   4: 0,029 us/op
+Iteration   5: 0,030 us/op
+Iteration   6: 0,028 us/op
+Iteration   7: 0,028 us/op
+Iteration   8: 0,028 us/op
+Iteration   9: 0,029 us/op
+Iteration  10: 0,030 us/op
+Iteration  11: 0,028 us/op
+Iteration  12: 0,028 us/op
+Iteration  13: 0,028 us/op
+Iteration  14: 0,028 us/op
+Iteration  15: 0,028 us/op
+Iteration  16: 0,028 us/op
+Iteration  17: 0,028 us/op
+Iteration  18: 0,030 us/op
+Iteration  19: 0,028 us/op
+Iteration  20: 0,028 us/op
+
+
+Result "testTwoConcatStringsWithConcat":
+  0,030 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,028, 0,030, 0,041), stdev = 0,003
+  CI (99.9%): [0,029, 0,031] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testTwoConcatStringsWithPlus
+
+# Run progress: 81,25% complete, ETA 00:08:05
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,028 us/op
+# Warmup Iteration   2: 0,021 us/op
+# Warmup Iteration   3: 0,021 us/op
+# Warmup Iteration   4: 0,021 us/op
+# Warmup Iteration   5: 0,021 us/op
+# Warmup Iteration   6: 0,021 us/op
+# Warmup Iteration   7: 0,021 us/op
+# Warmup Iteration   8: 0,022 us/op
+# Warmup Iteration   9: 0,021 us/op
+# Warmup Iteration  10: 0,021 us/op
+# Warmup Iteration  11: 0,022 us/op
+# Warmup Iteration  12: 0,021 us/op
+# Warmup Iteration  13: 0,022 us/op
+# Warmup Iteration  14: 0,021 us/op
+# Warmup Iteration  15: 0,021 us/op
+# Warmup Iteration  16: 0,021 us/op
+# Warmup Iteration  17: 0,021 us/op
+# Warmup Iteration  18: 0,021 us/op
+# Warmup Iteration  19: 0,022 us/op
+# Warmup Iteration  20: 0,021 us/op
+Iteration   1: 0,022 us/op
+Iteration   2: 0,022 us/op
+Iteration   3: 0,022 us/op
+Iteration   4: 0,021 us/op
+Iteration   5: 0,022 us/op
+Iteration   6: 0,022 us/op
+Iteration   7: 0,022 us/op
+Iteration   8: 0,022 us/op
+Iteration   9: 0,022 us/op
+Iteration  10: 0,043 us/op
+Iteration  11: 0,022 us/op
+Iteration  12: 0,022 us/op
+Iteration  13: 0,021 us/op
+Iteration  14: 0,022 us/op
+Iteration  15: 0,021 us/op
+Iteration  16: 0,022 us/op
+Iteration  17: 0,022 us/op
+Iteration  18: 0,022 us/op
+Iteration  19: 0,022 us/op
+Iteration  20: 0,022 us/op
+
+# Run progress: 82,81% complete, ETA 00:07:25
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,030 us/op
+# Warmup Iteration   2: 0,021 us/op
+# Warmup Iteration   3: 0,022 us/op
+# Warmup Iteration   4: 0,025 us/op
+# Warmup Iteration   5: 0,026 us/op
+# Warmup Iteration   6: 0,027 us/op
+# Warmup Iteration   7: 0,021 us/op
+# Warmup Iteration   8: 0,021 us/op
+# Warmup Iteration   9: 0,022 us/op
+# Warmup Iteration  10: 0,022 us/op
+# Warmup Iteration  11: 0,022 us/op
+# Warmup Iteration  12: 0,021 us/op
+# Warmup Iteration  13: 0,022 us/op
+# Warmup Iteration  14: 0,021 us/op
+# Warmup Iteration  15: 0,021 us/op
+# Warmup Iteration  16: 0,022 us/op
+# Warmup Iteration  17: 0,023 us/op
+# Warmup Iteration  18: 0,024 us/op
+# Warmup Iteration  19: 0,022 us/op
+# Warmup Iteration  20: 0,022 us/op
+Iteration   1: 0,022 us/op
+Iteration   2: 0,022 us/op
+Iteration   3: 0,021 us/op
+Iteration   4: 0,021 us/op
+Iteration   5: 0,021 us/op
+Iteration   6: 0,022 us/op
+Iteration   7: 0,022 us/op
+Iteration   8: 0,023 us/op
+Iteration   9: 0,022 us/op
+Iteration  10: 0,023 us/op
+Iteration  11: 0,022 us/op
+Iteration  12: 0,022 us/op
+Iteration  13: 0,022 us/op
+Iteration  14: 0,022 us/op
+Iteration  15: 0,022 us/op
+Iteration  16: 0,023 us/op
+Iteration  17: 0,022 us/op
+Iteration  18: 0,022 us/op
+Iteration  19: 0,022 us/op
+Iteration  20: 0,022 us/op
+
+# Run progress: 84,38% complete, ETA 00:06:44
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,029 us/op
+# Warmup Iteration   2: 0,022 us/op
+# Warmup Iteration   3: 0,022 us/op
+# Warmup Iteration   4: 0,022 us/op
+# Warmup Iteration   5: 0,022 us/op
+# Warmup Iteration   6: 0,023 us/op
+# Warmup Iteration   7: 0,023 us/op
+# Warmup Iteration   8: 0,022 us/op
+# Warmup Iteration   9: 0,042 us/op
+# Warmup Iteration  10: 0,022 us/op
+# Warmup Iteration  11: 0,022 us/op
+# Warmup Iteration  12: 0,022 us/op
+# Warmup Iteration  13: 0,022 us/op
+# Warmup Iteration  14: 0,023 us/op
+# Warmup Iteration  15: 0,022 us/op
+# Warmup Iteration  16: 0,022 us/op
+# Warmup Iteration  17: 0,022 us/op
+# Warmup Iteration  18: 0,022 us/op
+# Warmup Iteration  19: 0,022 us/op
+# Warmup Iteration  20: 0,022 us/op
+Iteration   1: 0,022 us/op
+Iteration   2: 0,022 us/op
+Iteration   3: 0,022 us/op
+Iteration   4: 0,022 us/op
+Iteration   5: 0,022 us/op
+Iteration   6: 0,022 us/op
+Iteration   7: 0,021 us/op
+Iteration   8: 0,021 us/op
+Iteration   9: 0,022 us/op
+Iteration  10: 0,022 us/op
+Iteration  11: 0,022 us/op
+Iteration  12: 0,022 us/op
+Iteration  13: 0,022 us/op
+Iteration  14: 0,022 us/op
+Iteration  15: 0,022 us/op
+Iteration  16: 0,022 us/op
+Iteration  17: 0,022 us/op
+Iteration  18: 0,022 us/op
+Iteration  19: 0,022 us/op
+Iteration  20: 0,022 us/op
+
+# Run progress: 85,94% complete, ETA 00:06:04
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,028 us/op
+# Warmup Iteration   2: 0,021 us/op
+# Warmup Iteration   3: 0,023 us/op
+# Warmup Iteration   4: 0,024 us/op
+# Warmup Iteration   5: 0,022 us/op
+# Warmup Iteration   6: 0,022 us/op
+# Warmup Iteration   7: 0,022 us/op
+# Warmup Iteration   8: 0,022 us/op
+# Warmup Iteration   9: 0,022 us/op
+# Warmup Iteration  10: 0,022 us/op
+# Warmup Iteration  11: 0,022 us/op
+# Warmup Iteration  12: 0,022 us/op
+# Warmup Iteration  13: 0,022 us/op
+# Warmup Iteration  14: 0,022 us/op
+# Warmup Iteration  15: 0,022 us/op
+# Warmup Iteration  16: 0,022 us/op
+# Warmup Iteration  17: 0,022 us/op
+# Warmup Iteration  18: 0,022 us/op
+# Warmup Iteration  19: 0,022 us/op
+# Warmup Iteration  20: 0,022 us/op
+Iteration   1: 0,022 us/op
+Iteration   2: 0,022 us/op
+Iteration   3: 0,022 us/op
+Iteration   4: 0,023 us/op
+Iteration   5: 0,021 us/op
+Iteration   6: 0,021 us/op
+Iteration   7: 0,021 us/op
+Iteration   8: 0,027 us/op
+Iteration   9: 0,029 us/op
+Iteration  10: 0,023 us/op
+Iteration  11: 0,022 us/op
+Iteration  12: 0,022 us/op
+Iteration  13: 0,022 us/op
+Iteration  14: 0,022 us/op
+Iteration  15: 0,022 us/op
+Iteration  16: 0,022 us/op
+Iteration  17: 0,022 us/op
+Iteration  18: 0,022 us/op
+Iteration  19: 0,022 us/op
+Iteration  20: 0,022 us/op
+
+
+Result "testTwoConcatStringsWithPlus":
+  0,022 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,021, 0,022, 0,043), stdev = 0,003
+  CI (99.9%): [0,021, 0,023] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testTwoConcatStringsWithStringBuffer
+
+# Run progress: 87,50% complete, ETA 00:05:23
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,034 us/op
+# Warmup Iteration   2: 0,026 us/op
+# Warmup Iteration   3: 0,026 us/op
+# Warmup Iteration   4: 0,027 us/op
+# Warmup Iteration   5: 0,025 us/op
+# Warmup Iteration   6: 0,025 us/op
+# Warmup Iteration   7: 0,025 us/op
+# Warmup Iteration   8: 0,025 us/op
+# Warmup Iteration   9: 0,025 us/op
+# Warmup Iteration  10: 0,025 us/op
+# Warmup Iteration  11: 0,025 us/op
+# Warmup Iteration  12: 0,025 us/op
+# Warmup Iteration  13: 0,026 us/op
+# Warmup Iteration  14: 0,027 us/op
+# Warmup Iteration  15: 0,025 us/op
+# Warmup Iteration  16: 0,026 us/op
+# Warmup Iteration  17: 0,026 us/op
+# Warmup Iteration  18: 0,025 us/op
+# Warmup Iteration  19: 0,026 us/op
+# Warmup Iteration  20: 0,026 us/op
+Iteration   1: 0,026 us/op
+Iteration   2: 0,026 us/op
+Iteration   3: 0,026 us/op
+Iteration   4: 0,026 us/op
+Iteration   5: 0,026 us/op
+Iteration   6: 0,026 us/op
+Iteration   7: 0,025 us/op
+Iteration   8: 0,026 us/op
+Iteration   9: 0,026 us/op
+Iteration  10: 0,025 us/op
+Iteration  11: 0,026 us/op
+Iteration  12: 0,025 us/op
+Iteration  13: 0,026 us/op
+Iteration  14: 0,026 us/op
+Iteration  15: 0,025 us/op
+Iteration  16: 0,026 us/op
+Iteration  17: 0,026 us/op
+Iteration  18: 0,026 us/op
+Iteration  19: 0,026 us/op
+Iteration  20: 0,026 us/op
+
+# Run progress: 89,06% complete, ETA 00:04:43
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,034 us/op
+# Warmup Iteration   2: 0,025 us/op
+# Warmup Iteration   3: 0,025 us/op
+# Warmup Iteration   4: 0,026 us/op
+# Warmup Iteration   5: 0,027 us/op
+# Warmup Iteration   6: 0,025 us/op
+# Warmup Iteration   7: 0,033 us/op
+# Warmup Iteration   8: 0,033 us/op
+# Warmup Iteration   9: 0,025 us/op
+# Warmup Iteration  10: 0,025 us/op
+# Warmup Iteration  11: 0,026 us/op
+# Warmup Iteration  12: 0,026 us/op
+# Warmup Iteration  13: 0,027 us/op
+# Warmup Iteration  14: 0,026 us/op
+# Warmup Iteration  15: 0,026 us/op
+# Warmup Iteration  16: 0,026 us/op
+# Warmup Iteration  17: 0,025 us/op
+# Warmup Iteration  18: 0,026 us/op
+# Warmup Iteration  19: 0,026 us/op
+# Warmup Iteration  20: 0,026 us/op
+Iteration   1: 0,027 us/op
+Iteration   2: 0,026 us/op
+Iteration   3: 0,026 us/op
+Iteration   4: 0,026 us/op
+Iteration   5: 0,026 us/op
+Iteration   6: 0,026 us/op
+Iteration   7: 0,026 us/op
+Iteration   8: 0,026 us/op
+Iteration   9: 0,026 us/op
+Iteration  10: 0,026 us/op
+Iteration  11: 0,026 us/op
+Iteration  12: 0,026 us/op
+Iteration  13: 0,025 us/op
+Iteration  14: 0,025 us/op
+Iteration  15: 0,025 us/op
+Iteration  16: 0,025 us/op
+Iteration  17: 0,025 us/op
+Iteration  18: 0,025 us/op
+Iteration  19: 0,025 us/op
+Iteration  20: 0,025 us/op
+
+# Run progress: 90,63% complete, ETA 00:04:02
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,033 us/op
+# Warmup Iteration   2: 0,025 us/op
+# Warmup Iteration   3: 0,026 us/op
+# Warmup Iteration   4: 0,026 us/op
+# Warmup Iteration   5: 0,026 us/op
+# Warmup Iteration   6: 0,026 us/op
+# Warmup Iteration   7: 0,026 us/op
+# Warmup Iteration   8: 0,026 us/op
+# Warmup Iteration   9: 0,026 us/op
+# Warmup Iteration  10: 0,026 us/op
+# Warmup Iteration  11: 0,026 us/op
+# Warmup Iteration  12: 0,026 us/op
+# Warmup Iteration  13: 0,026 us/op
+# Warmup Iteration  14: 0,025 us/op
+# Warmup Iteration  15: 0,026 us/op
+# Warmup Iteration  16: 0,026 us/op
+# Warmup Iteration  17: 0,026 us/op
+# Warmup Iteration  18: 0,025 us/op
+# Warmup Iteration  19: 0,025 us/op
+# Warmup Iteration  20: 0,025 us/op
+Iteration   1: 0,025 us/op
+Iteration   2: 0,025 us/op
+Iteration   3: 0,025 us/op
+Iteration   4: 0,026 us/op
+Iteration   5: 0,025 us/op
+Iteration   6: 0,025 us/op
+Iteration   7: 0,043 us/op
+Iteration   8: 0,027 us/op
+Iteration   9: 0,026 us/op
+Iteration  10: 0,026 us/op
+Iteration  11: 0,027 us/op
+Iteration  12: 0,028 us/op
+Iteration  13: 0,035 us/op
+Iteration  14: 0,035 us/op
+Iteration  15: 0,028 us/op
+Iteration  16: 0,026 us/op
+Iteration  17: 0,025 us/op
+Iteration  18: 0,036 us/op
+Iteration  19: 0,029 us/op
+Iteration  20: 0,027 us/op
+
+# Run progress: 92,19% complete, ETA 00:03:22
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,036 us/op
+# Warmup Iteration   2: 0,027 us/op
+# Warmup Iteration   3: 0,025 us/op
+# Warmup Iteration   4: 0,025 us/op
+# Warmup Iteration   5: 0,028 us/op
+# Warmup Iteration   6: 0,027 us/op
+# Warmup Iteration   7: 0,026 us/op
+# Warmup Iteration   8: 0,025 us/op
+# Warmup Iteration   9: 0,026 us/op
+# Warmup Iteration  10: 0,026 us/op
+# Warmup Iteration  11: 0,026 us/op
+# Warmup Iteration  12: 0,026 us/op
+# Warmup Iteration  13: 0,027 us/op
+# Warmup Iteration  14: 0,028 us/op
+# Warmup Iteration  15: 0,030 us/op
+# Warmup Iteration  16: 0,027 us/op
+# Warmup Iteration  17: 0,026 us/op
+# Warmup Iteration  18: 0,026 us/op
+# Warmup Iteration  19: 0,026 us/op
+# Warmup Iteration  20: 0,026 us/op
+Iteration   1: 0,026 us/op
+Iteration   2: 0,026 us/op
+Iteration   3: 0,028 us/op
+Iteration   4: 0,031 us/op
+Iteration   5: 0,029 us/op
+Iteration   6: 0,026 us/op
+Iteration   7: 0,026 us/op
+Iteration   8: 0,026 us/op
+Iteration   9: 0,026 us/op
+Iteration  10: 0,026 us/op
+Iteration  11: 0,026 us/op
+Iteration  12: 0,026 us/op
+Iteration  13: 0,026 us/op
+Iteration  14: 0,026 us/op
+Iteration  15: 0,025 us/op
+Iteration  16: 0,026 us/op
+Iteration  17: 0,026 us/op
+Iteration  18: 0,026 us/op
+Iteration  19: 0,026 us/op
+Iteration  20: 0,026 us/op
+
+
+Result "testTwoConcatStringsWithStringBuffer":
+  0,027 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,025, 0,027, 0,043), stdev = 0,003
+  CI (99.9%): [0,025, 0,028] (assumes normal distribution)
+
+
+# JMH 1.11.2 (released 48 days ago)
+# VM version: JDK 1.8.0_65, VM 25.65-b01
+# VM invoker: C:\Program Files\Java\jre1.8.0_65\bin\java.exe
+# VM options: <none>
+# Warmup: 20 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.aezin.workshop.benchmark.jmh.concatstring.BenchmarkConcatString.testTwoConcatStringsWithStringBuilder
+
+# Run progress: 93,75% complete, ETA 00:02:41
+# Fork: 1 of 4
+# Warmup Iteration   1: 0,032 us/op
+# Warmup Iteration   2: 0,026 us/op
+# Warmup Iteration   3: 0,025 us/op
+# Warmup Iteration   4: 0,025 us/op
+# Warmup Iteration   5: 0,025 us/op
+# Warmup Iteration   6: 0,046 us/op
+# Warmup Iteration   7: 0,025 us/op
+# Warmup Iteration   8: 0,025 us/op
+# Warmup Iteration   9: 0,025 us/op
+# Warmup Iteration  10: 0,025 us/op
+# Warmup Iteration  11: 0,025 us/op
+# Warmup Iteration  12: 0,026 us/op
+# Warmup Iteration  13: 0,026 us/op
+# Warmup Iteration  14: 0,025 us/op
+# Warmup Iteration  15: 0,026 us/op
+# Warmup Iteration  16: 0,025 us/op
+# Warmup Iteration  17: 0,025 us/op
+# Warmup Iteration  18: 0,025 us/op
+# Warmup Iteration  19: 0,025 us/op
+# Warmup Iteration  20: 0,025 us/op
+Iteration   1: 0,025 us/op
+Iteration   2: 0,026 us/op
+Iteration   3: 0,026 us/op
+Iteration   4: 0,026 us/op
+Iteration   5: 0,026 us/op
+Iteration   6: 0,026 us/op
+Iteration   7: 0,025 us/op
+Iteration   8: 0,026 us/op
+Iteration   9: 0,026 us/op
+Iteration  10: 0,026 us/op
+Iteration  11: 0,026 us/op
+Iteration  12: 0,026 us/op
+Iteration  13: 0,026 us/op
+Iteration  14: 0,026 us/op
+Iteration  15: 0,026 us/op
+Iteration  16: 0,025 us/op
+Iteration  17: 0,025 us/op
+Iteration  18: 0,025 us/op
+Iteration  19: 0,026 us/op
+Iteration  20: 0,025 us/op
+
+# Run progress: 95,31% complete, ETA 00:02:01
+# Fork: 2 of 4
+# Warmup Iteration   1: 0,033 us/op
+# Warmup Iteration   2: 0,025 us/op
+# Warmup Iteration   3: 0,025 us/op
+# Warmup Iteration   4: 0,025 us/op
+# Warmup Iteration   5: 0,025 us/op
+# Warmup Iteration   6: 0,025 us/op
+# Warmup Iteration   7: 0,025 us/op
+# Warmup Iteration   8: 0,025 us/op
+# Warmup Iteration   9: 0,025 us/op
+# Warmup Iteration  10: 0,025 us/op
+# Warmup Iteration  11: 0,025 us/op
+# Warmup Iteration  12: 0,025 us/op
+# Warmup Iteration  13: 0,025 us/op
+# Warmup Iteration  14: 0,026 us/op
+# Warmup Iteration  15: 0,025 us/op
+# Warmup Iteration  16: 0,025 us/op
+# Warmup Iteration  17: 0,025 us/op
+# Warmup Iteration  18: 0,026 us/op
+# Warmup Iteration  19: 0,025 us/op
+# Warmup Iteration  20: 0,025 us/op
+Iteration   1: 0,025 us/op
+Iteration   2: 0,025 us/op
+Iteration   3: 0,026 us/op
+Iteration   4: 0,025 us/op
+Iteration   5: 0,032 us/op
+Iteration   6: 0,034 us/op
+Iteration   7: 0,025 us/op
+Iteration   8: 0,025 us/op
+Iteration   9: 0,025 us/op
+Iteration  10: 0,026 us/op
+Iteration  11: 0,025 us/op
+Iteration  12: 0,026 us/op
+Iteration  13: 0,027 us/op
+Iteration  14: 0,025 us/op
+Iteration  15: 0,026 us/op
+Iteration  16: 0,026 us/op
+Iteration  17: 0,025 us/op
+Iteration  18: 0,026 us/op
+Iteration  19: 0,026 us/op
+Iteration  20: 0,025 us/op
+
+# Run progress: 96,88% complete, ETA 00:01:20
+# Fork: 3 of 4
+# Warmup Iteration   1: 0,032 us/op
+# Warmup Iteration   2: 0,026 us/op
+# Warmup Iteration   3: 0,025 us/op
+# Warmup Iteration   4: 0,025 us/op
+# Warmup Iteration   5: 0,025 us/op
+# Warmup Iteration   6: 0,025 us/op
+# Warmup Iteration   7: 0,025 us/op
+# Warmup Iteration   8: 0,025 us/op
+# Warmup Iteration   9: 0,025 us/op
+# Warmup Iteration  10: 0,025 us/op
+# Warmup Iteration  11: 0,026 us/op
+# Warmup Iteration  12: 0,025 us/op
+# Warmup Iteration  13: 0,025 us/op
+# Warmup Iteration  14: 0,029 us/op
+# Warmup Iteration  15: 0,026 us/op
+# Warmup Iteration  16: 0,026 us/op
+# Warmup Iteration  17: 0,025 us/op
+# Warmup Iteration  18: 0,025 us/op
+# Warmup Iteration  19: 0,025 us/op
+# Warmup Iteration  20: 0,025 us/op
+Iteration   1: 0,025 us/op
+Iteration   2: 0,025 us/op
+Iteration   3: 0,025 us/op
+Iteration   4: 0,025 us/op
+Iteration   5: 0,025 us/op
+Iteration   6: 0,025 us/op
+Iteration   7: 0,026 us/op
+Iteration   8: 0,026 us/op
+Iteration   9: 0,025 us/op
+Iteration  10: 0,025 us/op
+Iteration  11: 0,025 us/op
+Iteration  12: 0,025 us/op
+Iteration  13: 0,025 us/op
+Iteration  14: 0,025 us/op
+Iteration  15: 0,025 us/op
+Iteration  16: 0,025 us/op
+Iteration  17: 0,025 us/op
+Iteration  18: 0,025 us/op
+Iteration  19: 0,025 us/op
+Iteration  20: 0,025 us/op
+
+# Run progress: 98,44% complete, ETA 00:00:40
+# Fork: 4 of 4
+# Warmup Iteration   1: 0,037 us/op
+# Warmup Iteration   2: 0,027 us/op
+# Warmup Iteration   3: 0,025 us/op
+# Warmup Iteration   4: 0,033 us/op
+# Warmup Iteration   5: 0,034 us/op
+# Warmup Iteration   6: 0,025 us/op
+# Warmup Iteration   7: 0,025 us/op
+# Warmup Iteration   8: 0,025 us/op
+# Warmup Iteration   9: 0,025 us/op
+# Warmup Iteration  10: 0,025 us/op
+# Warmup Iteration  11: 0,026 us/op
+# Warmup Iteration  12: 0,025 us/op
+# Warmup Iteration  13: 0,027 us/op
+# Warmup Iteration  14: 0,025 us/op
+# Warmup Iteration  15: 0,025 us/op
+# Warmup Iteration  16: 0,025 us/op
+# Warmup Iteration  17: 0,025 us/op
+# Warmup Iteration  18: 0,026 us/op
+# Warmup Iteration  19: 0,025 us/op
+# Warmup Iteration  20: 0,025 us/op
+Iteration   1: 0,025 us/op
+Iteration   2: 0,025 us/op
+Iteration   3: 0,026 us/op
+Iteration   4: 0,025 us/op
+Iteration   5: 0,026 us/op
+Iteration   6: 0,025 us/op
+Iteration   7: 0,025 us/op
+Iteration   8: 0,025 us/op
+Iteration   9: 0,026 us/op
+Iteration  10: 0,025 us/op
+Iteration  11: 0,026 us/op
+Iteration  12: 0,026 us/op
+Iteration  13: 0,026 us/op
+Iteration  14: 0,026 us/op
+Iteration  15: 0,025 us/op
+Iteration  16: 0,025 us/op
+Iteration  17: 0,025 us/op
+Iteration  18: 0,025 us/op
+Iteration  19: 0,025 us/op
+Iteration  20: 0,026 us/op
+
+
+Result "testTwoConcatStringsWithStringBuilder":
+  0,026 ±(99.9%) 0,001 us/op [Average]
+  (min, avg, max) = (0,025, 0,026, 0,034), stdev = 0,001
+  CI (99.9%): [0,025, 0,026] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:43:11
+
+Benchmark                                                      Mode  Cnt  Score    Error  Units
+BenchmarkConcatString.testFourConcatStringsWithConcat          avgt   80  0,159 ±  0,006  us/op
+BenchmarkConcatString.testFourConcatStringsWithPlus            avgt   80  0,060 ±  0,002  us/op
+BenchmarkConcatString.testFourConcatStringsWithStringBuffer    avgt   80  0,040 ±  0,001  us/op
+BenchmarkConcatString.testFourConcatStringsWithStringBuilder   avgt   80  0,040 ±  0,001  us/op
+BenchmarkConcatString.testLongConcatStringsWithConcat          avgt   80  2,037 ±  0,067  us/op
+BenchmarkConcatString.testLongConcatStringsWithPlus            avgt   80  0,860 ±  0,016  us/op
+BenchmarkConcatString.testLongConcatStringsWithStringBuffer    avgt   80  0,621 ±  0,019  us/op
+BenchmarkConcatString.testLongConcatStringsWithStringBuilder   avgt   80  0,600 ±  0,020  us/op
+BenchmarkConcatString.testThreeConcatStringsWithConcat         avgt   80  0,047 ±  0,002  us/op
+BenchmarkConcatString.testThreeConcatStringsWithPlus           avgt   80  0,035 ±  0,001  us/op
+BenchmarkConcatString.testThreeConcatStringsWithStringBuffer   avgt   80  0,034 ±  0,002  us/op
+BenchmarkConcatString.testThreeConcatStringsWithStringBuilder  avgt   80  0,039 ±  0,003  us/op
+BenchmarkConcatString.testTwoConcatStringsWithConcat           avgt   80  0,030 ±  0,001  us/op
+BenchmarkConcatString.testTwoConcatStringsWithPlus             avgt   80  0,022 ±  0,001  us/op
+BenchmarkConcatString.testTwoConcatStringsWithStringBuffer     avgt   80  0,027 ±  0,001  us/op
+BenchmarkConcatString.testTwoConcatStringsWithStringBuilder    avgt   80  0,026 ±  0,001  us/op
